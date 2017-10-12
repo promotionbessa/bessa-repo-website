@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: samyilias/jekyll-netify
+  repo: promotionbessa/bessa-repo-website
   branch: master
 
 publish_mode: editorial_workflow
