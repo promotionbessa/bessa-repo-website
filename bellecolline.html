@@ -1,0 +1,64 @@
+---
+layout: residence
+title: Résidence La Belle Colline | Promotion Immobilière à Djenane Sfari
+permalink: /projets-en-cours/la-belle-colline.html
+delivery: Juin 2018
+location: Birkhadem
+redirect_from: [/fr/projets-en-cours/la-belle-colline,/en/ongoing-project/la-belle-colline,/es/proyectos-en-curso/la-belle-colline]
+description: Implantée à Djenane Sfari dans la commune de Birkhadem, la Résidence La Belle Colline de Bessa Promotion Immobilière est un projet ambitieux d'éco quartier
+slug: La Belle Colline
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{ site.data.images.residences.bellecolline.cover}}"/></div>
+</div>
+<div class="presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Située à Djenane Sfari dans la commune de Birkhadem, la résidence La Belle Colline représente un de nos projets les plus ambitieux : Construire un important ensemble résidentiel géré à la pointe de la technologie.
+</p>
+
+  <p> Conçue en partenariat avec un bureau d’étude sud-coréen, la résidence  propose une très grande variété d’appartements et de surfaces du F2 au F5 en simplex et duplex, répartis sur plusieurs bâtiments de sorte à former un éco-quartier.</p>
+<p>
+    En plus de proposer des vues imprenables sur la Mitidja dans certains appartements et un
+    accès très facile sur l’autoroute, la résidence disposera également de locaux commerciaux, d’une salle de fitness,
+    d’un spa et d’espace verts aménagés de sorte à garantir un environnement convivial et un cadre de vie où le fonctionnel
+    et l’esthétique ont été étroitement associés pour le bien-être de tous les résidents.
+  </p>
+
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.bellecolline %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+   <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+       {% for item in site.data.images.residences.bellecolline.slider %}
+       <li>
+         <img src="{{item.slide}}" alt="{{item.alt}}" >
+            </li>
+       {% endfor %}
+     </ul>
+   </div>
+
+   </div>
+ </div>

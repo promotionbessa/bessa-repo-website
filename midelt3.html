@@ -1,0 +1,64 @@
+---
+layout: residence
+title: Résidence Midet 3 | Promotion Immobilière à Ouled Fayet
+slug: Midelt3
+permalink: /projets-en-cours/midelt-03.html
+redirect_from: [/fr/projets-en-cours/midelt-3,/en/news/midelt-3,/es/novedades/midelt-3]
+delivery: 2018
+location: Ouled Fayet
+description: Située à Ouled Fayet, la Résidence Midelt 3 de Bessa Promotion Immobilière possède tous les atouts d'une charmante petite résidence.
+---
+<div class="parallax-container hide-on-med-and-down">
+<div class="parallax"><img src="{{  site.data.images.residences.midelt3.cover }}"/></div>
+</div>
+<div class="  presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Avec la résidence Midelt 3 à Ouled Fayet, nous vous proposons de choisir un projet tout aussi innovant que les deux résidences adjacentes Midelt 1 et 2 d’un point de vue architectural, mais en optant pour des dimensions moins importantes pour nos clients qui souhaitent bénéficier de l’intimité d’une plus petite résidence.
+</p>
+<p>
+  Constituée de trois immeubles de onze étages, cette résidence qui sera livrée en 2018 propose une grande variété d’appartements et de surfaces allant du F2 au F5, en simplex et duplex.
+</p>
+<p>
+  Vous serez charmés par l’aspect harmonieux de ses lignes et par l’agencement des espaces intérieurs des appartements, dotés de balcons avec vue dégagée et qui seront équipés de toutes les commodités du confort.
+</p>
+<p>
+  Les espaces extérieurs verdoyants offrent un sentiment de convivialité à l’intérieur dans cette résidence clôturée et sécurisée au sein d’un pôle résidentiel proche des principaux axes routiers.
+</p>
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.midelt3 %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+    <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+       {% for item in site.data.images.residences.midelt3.slider %}
+       <li>
+         <img src="{{item.slide}}" alt="{{item.alt}}" >
+            </li>
+       {% endfor %}
+     </ul>
+   </div>
+
+   </div>
+ </div>

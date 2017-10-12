@@ -1,0 +1,48 @@
+</main>
+<footer class="page-footer black">
+         <!-- <div class="container"> -->
+           <div class="row padding">
+
+             <div class="col s12 m4">
+               <h6 class="bessa-color">Accueil</h6>
+               <ul>
+                 {% for item in site.data.navigation.sublinksaccueil %}
+                 <li><a class="grey-text text-lighten-3" href="{{item.url}}">{{item.title}}</a></li>
+
+                  {% endfor %}
+
+               </ul>
+             </div>
+             <div class="col s12 m4">
+               <h6 class="bessa-color">Références</h6>
+               <ul>
+                 {% for item in site.data.navigation.sublinksreferences %}
+                 <li><a class="grey-text text-lighten-3" href="{{item.url}}">{{item.title}}</a></li>
+                  {% endfor %}
+               </ul>
+
+               <h6 class="bessa-color">Nouveautés</h6>
+               <ul>
+                 {% for item in site.data.navigation.sublinksnouveautes %}
+                 <li><a class="grey-text text-lighten-3" href="{{item.url}}">{{item.title}}</a></li>
+                  {% endfor %}
+               </ul>
+             </div>
+             <div class="col s12 m4 ">
+               <h6 class="bessa-color">Nouveautés</h6>
+               <ul>
+                 {% for item in site.data.navigation.sublinksprojetsencours %}
+                 <li><a class="grey-text text-lighten-3" href="{{item.url}}">{{item.title}}</a></li>
+                  {% endfor %}
+               </ul>
+             </div>
+              </div>
+
+       </footer>
+       {% if page.booking == true %}
+        <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+        {% endif %}
+
+        {% if page.slug == "Doléances" %}
+        <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+        {% endif %}

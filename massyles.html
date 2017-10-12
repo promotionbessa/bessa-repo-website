@@ -1,0 +1,64 @@
+---
+layout: residence
+title: Résidence Les Massyles | Promotion Immobilière les Grands Vents
+permalink: /nouveautes/les-massyles.html
+redirect_from: [/fr/nouveautes/les-massyles,/en/news/les-massyles,/es/novedades/les-massyles]
+delivery: Fin 2018
+slug: Les Massyles
+booking: true
+location: Les Grands Vents
+description: Découvrez en avant première  la résidence les Massyles , le dernier projet de Bessa Promotion Immobilière dans le quartier dit les Grands Vents
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{site.data.images.residences.massyles.cover}}"/></div>
+</div>
+<div class="presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Envie d'évasion ? Besoin d'intimité et de confort ? Découvrez en avant première la luxueuse résidence Les Massyles dans le quartier des Grands Vents à Chéraga.
+</p>
+<p>
+ Un projet d'immeuble de 13 étages à l'architecture moderne et élégante, directement accessible depuis l'autouroute avec balcons, terrasses, luminosité exceptionnelle et vue sur le parc Dounia.
+ </p>
+ <p>
+ Avec seulement 63 appartements haut-standing, conçus avec des matériaux raffinés, la résidence Les Massyles fera de vous un propriétaire prévilégié dans un environnement dôté d'espaces verts et de magasins
+</p>
+</div>
+
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}} </h4>
+
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.massyles %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+   <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+       {% for item in site.data.images.residences.massyles.slider %}
+       <li>
+         <img src="{{item.slide}}" alt="{{item.alt}}" >
+            </li>
+       {% endfor %}
+     </ul>
+   </div>
+
+   </div>
+ </div>

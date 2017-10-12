@@ -1,0 +1,86 @@
+<div class="padding z-depth-5">
+<h5 class="bessa-color">
+Ce formulaire est exclusivement dédié aux doléances de notre aimable clientèle.</h5>
+<h6>
+  Pour tout autre type d’informations, merci de remplir ce <a href="http://www.bessapromotion.com/fr/contactez-nous" class="underline--magical">formulaire</a>.
+</h6>
+<br/>
+  <form action='https://script.google.com/macros/s/AKfycbyoVoPtDCbgGaKgvQMgFVcdcVr3mF2fZnBaKU2yF9lT0Sa6l6U/exec' method='post' id='gform'>
+    <div class='row'>
+    <div class="col s12 m6">
+      <div class="input-field">
+        <i class="material-icons prefix">account_circle</i>
+        <input type="text" class="form-control" id="nom" name='name' placeholder="Votre nom" required>
+        <label for="nom">Nom </label>
+      </div>
+    </div>
+      <div class="col s12 m6">
+        <div class="input-field">
+          <i class="material-icons prefix">account_circle</i>
+          <input type="email" class="form-control" id="email" name='email' placeholder="Votre email" required>
+          <label for="email">Email</label>
+        </div>
+
+      </div>
+    </div>
+
+     <div class="input-field">
+       <i class="material-icons prefix">phone</i>
+       <input type="text" class="form-control" id="telephone" name='telephone' placeholder="Votre numéro" required>
+        <label for="telephone">Téléphone</label>
+      </div>
+
+    <div class="">
+      <label for="commercial">Commercial</label>
+
+         <select  id="commercial" name='commercial' required>
+           <option value="" disabled selected>Votre chargée clientèle</option>
+          <option value='benamer.l@bessapromotion.com'>Benamer</option>
+          <option value='benlarbi.m@bessapromotion.com'>Benlarbi</option>
+          <option value='derrah.r@bessapromotion.com'>Derrah</option>
+          <option value='guermi.m@bessapromotion.com'>Guermi</option>
+          <option value='hamana.r@bessapromotion.com'>Hamana</option>
+          <option value='lekhdari.a@bessapromotion.com'>Lekhdari</option>
+          <option value='naitmouloud.k@bessapromotion.com'>Nait Mouloud</option>
+          <option value='thameur.l@bessapromotion.com'>Thameur</option>
+          <option value='touati.r@bessapromotion.com'>Touati</option>
+          <option value='oufighou.n@bessapromotion.com'>Je ne sais pas</option>
+        </select>
+</div>
+
+        <div class="form-group">
+
+		<label for ='residence'>Résidence</label>
+         <select  class="form-control" id="residence" name='sujet' required>
+           <option value="" disabled selected>Votre résidence</option>
+
+        <option value='Gaya'>Gaya</option>
+        <option value='Irat'>Irat</option>
+        <option value='Les sapins1'>Les Sapins 1</option>
+        <option value='Les sapins2'>Les Sapins 2</option>
+        <option value='La belle colline'>La Belle Colline</option>
+        <option value='Midelt1'>Midelt 1</option>
+        <option value='midelt2'>Midelt 2</option>
+        <option value='midelt3'>Midelt 3</option>
+        <option value='Fusion'>Fusion</option>
+        <option value='Garden'>Garden</option>
+        <option value='Massiva'>Massiva</option>
+        <option value='Les massyles'>Les Massyles</option>
+
+        </select>
+</div>
+    <div class='input-field'>
+      <label for='message'>Votre réclamation</label>
+      <textarea class="materialize-textarea" id='message' name='message'></textarea>
+    </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div style="display:none;" id="thankyou_message">
+    <p class="flow-text" style="text-align:justify;"><strong>Nous vous remercions de votre message</strong>. Votre doléance a bien été transmise aux services concernés pour traitement. Vous allez recevoir une réponse dans un délais maximal de 48 heures.
+    </p>
+      <h6 class="right-align bessa-color">
+        Le Service Gestion des Réclamations.
+      </h6>
+  </div>
+</div>

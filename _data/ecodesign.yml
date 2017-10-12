@@ -1,0 +1,42 @@
+confort:
+  interior:
+    slider:
+      - slide: "/img/confort/cuisine-01.jpg"
+        alt: "cuisine"
+      - slide: "/img/confort/cuisine-02.jpg"
+        alt: "cuisine"
+      - slide: "/img/confort/salle-de-bain-01.jpg"
+        alt: "salle de bain"
+      - slide: "/img/confort/salle-de-bain-02.jpg"
+        alt: "salle de bain"
+      - slide: "/img/confort/suite-parentale.jpg"
+        alt: "suite parentale"
+      - slide: "/img/confort/chambre.jpg"
+        alt: "salon"
+
+  exterior:
+    slider:
+      - slide: "/img/confort/hall-d-entree-01.jpg"
+        alt: "hall"
+      - slide: "/img/confort/hall-d-entree-02.jpg"
+        alt: "hall"
+      - slide: "/img/confort/aire-de-jeux.jpg"
+        alt: "aire de jeux"
+      - slide: "/img/confort/parties-communes.jpg"
+        alt: "aire de jeux"
+securite:
+  interior:
+    slider:
+      - slide: "/img/securite/08.jpg"
+        alt: "cuisine"
+      - slide: "/img/securite/cuisine-02.jpg"
+        alt: "cuisine"
+
+  exterior:
+    slider:
+      - slide: "/img/securite/parking-01.jpg"
+        alt: "parking"
+      - slide: "/img/securite/hall-d-entree-02.jpg"
+        alt: "hall"
+      - slide: "/img/securite/parking-02.jpg"
+        alt: "parking"

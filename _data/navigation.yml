@@ -1,0 +1,77 @@
+links:
+- title: Accueil
+  url: "#"
+  id: accueil
+
+
+- title: Références
+  url: "#"
+  id: references
+
+- title: Nouveautés
+  url: "#"
+  id: nouveautes
+- title: Projets en cours
+  url: "#"
+  id: projets-en-cours
+
+- title: Eco-design
+  url: "#"
+
+- title: Services
+  url: "#"
+  id: services
+- title: Recrutement
+  url: /recrut
+- title: Contact
+  url: /contactez-nous
+sublinksaccueil:
+- title: Qui-sommes-nous
+  url: /accueil/qui-sommes-nous.html
+- title: Lettre du Directeur
+  url: /acceuil/letter.html
+- title: Blog
+  url: /acceuil/blog.html
+
+sublinksreferences:
+- title: Gaya
+  url: /references/gaya.html
+- title: Irat
+  url: /references/irat.html
+- title: Les Sapins 1
+  url: /references/sapins-01.html
+
+sublinksnouveautes:
+- title: Massiva
+  url: /nouveautes/massiva.html
+
+- title: Les Massyles
+  url: /nouveautes/les-massyles.html
+
+sublinksprojetsencours:
+- title: Garden
+  url: /projets-en-cours/garden.html
+- title: La Belle Colline
+  url: /projets-en-cours/la-belle-colline.html
+- title: Fusion
+  url: /projets-en-cours/fusion.html
+- title: Midelt 1
+  url: /projets-en-cours/midelt.html
+- title: Midelt 2
+  url: /projets-en-cours/midelt-02.html
+- title: Midelt 3
+  url: /projets-en-cours/midelt-03.html
+- title: Les Sapins 2
+  url: /projets-en-cours/sapin-ii.html
+- title: Avancement des travaux
+  url: /projets-en-cours/avancement-des-travaux.html
+sublinksecodesign:
+- title: Environnement
+  url: /eco-design/environnement.html
+- title: Confort
+  url: /eco-design/confort.html
+- title: Sécurité
+  url: /eco-design/securite.html
+sublinksservice:
+- title: Doléances
+  url: /nos-services/doléances.html

@@ -1,0 +1,44 @@
+---
+layout: default
+
+---
+<div class="row padding">
+  <div class="col s12 m8">
+
+    <h4 class="bessa-color blog-header">{{page.title}}</h4>
+
+    <img src="{{ page.picture | relative_url }}" class="responsive-img" alt="">
+    {{ content }}
+    <div class="chip">
+        <img src="{{ site.data.images.icon-blog-calendar | relative_url }}"/>
+        Publié le :
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: "%d/%m/%Y" }}
+      </time>
+
+    </div>
+    {% include disqus_comments.html %}
+
+  </div>
+
+
+  <div class="col s12 m4">
+    <ul class="collection with-header">
+      <li class="collection-header bessa-bg-red "><h5 class="white-text"><i class="material-icons right white-text">library_books</i>{{site.data.blog-settings.headerblog}}</h5>
+</li>
+
+      {% for post in site.posts %}
+     <li class="collection-item hoverable"><a class="post-link" href="{{ post.url | relative_url }}"><i class="material-icons left grey-text text-darken-2">book</i>{{ post.title | escape }} </a></li>
+        {% endfor %}
+         </ul>
+
+           {% include newsletter-blog.html %}
+           <div class="margin">
+           {% include social-media-blog.html %}
+           </div>
+
+
+
+</div>
+</div>

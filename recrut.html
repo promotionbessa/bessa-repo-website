@@ -1,0 +1,94 @@
+---
+layout: default
+permalink: recrut.html
+title: Recrutement
+slug: recrutement
+description: Vous êtes client de Bessa Promotion Immobilière et vous avez une doléance ? Posez toute vos question en nous contactant ici.
+---
+<div class="banner center-align ">
+  <div class="header-show">
+    <h3 class="align-center white-text">{{page.title}}</h3>
+
+ <div class="underline"></div>
+  </div>
+
+  </div>
+  <div class="padding center-align">
+    <p class="flow-text justify-align ">Chez Bessa Promotion, le travail d'équipe est une de nos valeurs essentielles. Nous croyons que la grandeur d'un métier est d'unir les hommes autour d'un objectif commun.
+    Rejoignez-nous et participez à l'édification de projets immobiliers ambitieux, capables d'améliorer l'urbanisme de nos villes en apportant sérénité et confort à nos compatriotes.</p>
+    <h3 class="center-align underline--magical-full" style="display:inline-block">Offres d'emploi</h3>
+  </div>
+  <!-- nos offres d'emploies -->
+  <div class="container">
+
+  <div class="row ">
+    {% for item in site.data.recrutement.jobs %}
+
+    <div class="col s12 m12">
+      <div class="card-panel  hoverable padding">
+        <h4 class="bessa-color">{{item.jobtitle}}</h4>
+        <p class="flow-text">
+          {{item.short}}
+        </p>
+        <div>
+        <a href="{{item.link}}" class="btn m-top">en savoir plus</a>
+      </div>
+      </div>
+    </div>
+
+       {% endfor %}
+
+    </div>
+
+<!-- end of nos offres d'emploies -->
+                <div class="center-align">
+
+
+        <h3 class="center-align underline--magical-full" style="display:inline-block"> Candidature spontanée</h3>
+
+
+         <div class="row">
+          <form class="col s12 m12" data-netlify="true" action="https://formspree.io/recrut@bessapromotion.com"
+      method="POST">
+            <div class="row">
+              <div class="input-field col s12 m6">
+                <i class="material-icons prefix">account_circle</i>
+                <label for="first_name">Prenom</label>
+                <input  id="first_name" type="text" class="validate" name="Prenom">
+              </div>
+              <div class="input-field col s12 m6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="last_name" type="text" class="validate active" name="Nom">
+                <label for="last_name" >Nom</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" name="Email">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <input type="hidden" name="_subject" value="Nouvelle candidature recue" />
+            <input type="hidden" name="_language" value="fr" />
+
+            <div class="row">
+         <form class="col m12">
+
+           <div class="row">
+             <div class="input-field col m12">
+               <div>
+               <input type="hidden" role="uploadcare-uploader" name="my_file" />
+                   </div>
+                 </div>
+
+             </div>
+           </div>
+         </form>
+         <button class="btn waves-effect waves-light m-top" type="submit">Je depose
+         <i class="material-icons right white-text">send</i>
+       </button>
+       </div>
+          </form>
+        </div>
+      </div>

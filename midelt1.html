@@ -1,0 +1,64 @@
+---
+layout: residence
+title: Résidence Midelt 1 | Appartements haut standing à Ouled Fayet
+slug: Midelt1
+permalink: /projets-en-cours/midelt.html
+redirect_from: [/fr/projets-en-cours/midelt,/en/ongoing-project/midelt,/es/proyectos-en-curso/midelt]
+delivery: 2018
+location: Ouled Fayet
+description: Située à Ouled Fayet, la Résidence Midelt 1 se ditingue par son architecture contemporaine et ses appartements haut standing avec balcons
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{ site.data.images.residences.midelt1.cover }}"/></div>
+</div>
+<div class="  presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Avec la résidence Midelt 1 à Ouled Fayet, nous vous proposons de choisir un projet qui est au cœur de nos préoccupations et ambitions : être les précurseurs de l’architecture contemporaine pour l’habitat collectif à Alger.
+</p>
+<p>
+  Cette résidence se distingue par son cachet visuel et architectural mettant avant l’utilisation des lignes courbes pour une optimisation maximale des espaces, aussi biens intérieurs qu’extérieurs, permettant ainsi de bénéficier d’une luminosité exceptionnelle.
+</p>
+<p>
+  Ayant un large choix de surfaces avec des appartements haut de gamme allant du F2 au F5, cette résidence   vous fera également bénéficier d’une grande accessibilité en étant à quelques minutes des principaux axes autoroutiers.
+</p>
+<p>
+  Constituée d'une combinaison harmonieuse de six blocs de neuf étages qui se présentent sous l’aspect d’une seule et même structure, la résidence Midelt 1 est dotée de  balcons ainsi que d’une vaste esplanade intérieure.
+</p>
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.midelt1 %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+   <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+
+         {% for item in site.data.images.residences.midelt1.slider %}
+         <li>
+           <img src="{{item.slide}}" alt="{{item.alt}}" >
+              </li>
+         {% endfor %}
+     </ul>
+   </div>
+   </div>
+ </div>

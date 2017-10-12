@@ -1,0 +1,28 @@
+---
+layout: post
+permalink : /acceuil/blog.html
+---
+
+    <section class="blog">
+            <div class="row" style="padding: 0px 20px">
+              <div class="col s12 m8">
+            {% for post in site.posts %}
+
+            <div class="card-panel white avatar hoverable">
+              <h4 class="bessa-color blog-header"><a href="{{ post.url | relative_url }}" class="center-align">{{post.title}}</a></h4>
+              <img src="{{ post.picture | relative_url }}" class="responsive-img" alt="">
+              <div class="justify-align">{{post.content | truncatewords: 30 }}</div>
+              <a href="{{ post.url | relative_url }}" class="bessa-color">Lire plus</a>
+            </div>
+
+
+            {% endfor %}
+            </div>
+            <div class="col s12 m4">
+              {% include newsletter-blog.html %}
+              <div class="margin">
+              {% include social-media-blog.html %}
+              </div>
+            </div>
+          </div>
+        </section>

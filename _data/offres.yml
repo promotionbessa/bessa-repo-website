@@ -1,0 +1,95 @@
+fusion:
+- type: F2 Simplex
+  surface: "67 m2"
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F4 Simplex
+  surface: "120 m2"
+- type: F4 Duplex
+  surface: "153 m2"
+- type: F5 Duplex
+  surface: "173 m2"
+
+garden:
+- type: F2 Simplex
+  surface: "56 m2"
+- type: F3 Simplex
+  surface: "70 m2"
+- type: F4 Simplex
+  surface: "121 m2"
+- type: F5 Simplex
+  surface: "195 m2"
+- type: F6 Duplex
+  surface: "243 m2"
+bellecolline:
+- type: F2 Simplex
+  surface: "70 m2"
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F3 Duplex
+  surface: "75 m2"
+- type: F4 Simplex
+  surface: "119 m2"
+- type: F5 Simplex
+  surface: "145 m2"
+massiva:
+- type: F2 Simplex
+  surface: "70.65m2"
+- type: F3 Simplex
+  surface: "88m2"
+- type: F4 Simplex
+  surface: "109 m2"
+- type: F5 Simplex
+  surface: "148 m2"
+- type: F5 Duplex
+  surface: "172 m2"
+massyles:
+- type: F2 Simplex
+  surface: "67 m2"
+- type: F3 Simplex
+  surface: "99 m2"
+- type: F4 Simplex
+  surface: "128 m2"
+- type: F5 Duplex
+  surface: "139 m2"
+
+midelt1:
+- type: F2 Simplex
+  surface: "64 m2"
+- type: F3 Simplex
+  surface: "105 m2"
+- type: F4 Simplex
+  surface: "130 m2"
+- type: F4 Duplex
+  surface: "164 m2"
+- type: F5 Duplex
+  surface: "187 m2"
+midelt2:
+- type: F3 Simplex
+  surface: "100 m2"
+- type: F4 Simplex
+  surface: "122 m2"
+midelt3:
+- type: F2 Simplex
+  surface: "82 m2"
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F3 Duplex
+  surface: "114 m2"
+- type: F4 Simplex
+  surface: "119 m2"
+- type: F4 Duplex
+  surface: "139 m2"
+- type: F5 Duplex
+  surface: "162 m2"
+sapins2:
+- type: F2 Simplex
+  surface: "47 m2"
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F4 Simplex
+  surface: "121 m2"
+- type: F4 Duplex
+  surface: "183 m2"
+- type: F5 Simplex
+  surface: "155 m2"

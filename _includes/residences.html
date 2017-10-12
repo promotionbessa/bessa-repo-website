@@ -1,0 +1,31 @@
+<div class="row" id="introduction">
+  <h3 class="center-align white-text"><span class="underline--magical-full">Nos Projets</span></h3>
+  {% for item in site.data.residences.residences %}
+  <div class="col s12 m6 l4">
+
+
+<div class="card medium hoverable cd">
+
+    <div class="card-image  waves-effect waves-block waves-light">
+      <img class="activator" src="{{item.image}}" alt="{{item.title}}">
+
+
+    </div>
+    {% if item.status == "new" %}  <span class="badge cyan darken-1 white-text pulse"> Nouveauté</span>  {% endif %}
+  {% if item.status == "encours" %}   <span class="badge orange white-text">En Cours</span> {% endif %}
+    <div class="card-content">
+
+      <span class="card-title activator grey-text text-darken-2">{{item.title}}<i class="material-icons">more_vert</i></span>
+
+      <p class="center-align"><a href="{{item.url}}"class="btn ">Découvrir</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title ">{{item.title}}<i class="material-icons right">close</i></span>
+      <p class="justify-align">{{item.content}}</p>
+      <p><a href="{{item.url}}" class="waves-effect waves-light btn">visiter</a></p>
+    </div>
+  </div>
+  </div>
+
+  {% endfor %}
+</div>

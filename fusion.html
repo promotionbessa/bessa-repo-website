@@ -1,0 +1,64 @@
+---
+layout: residence
+title: Résidence Fusion à Draria | Bessa Promotion Immobilière
+slug: Fusion
+permalink: /projets-en-cours/fusion.html
+delivery: Fin 2017
+location: Draria
+redirect_from: [/fr/projets-en-cours/fusion,/en/ongoing-project/fusion,/es/proyectos-en-curso/fusion]
+description: Située à Draria,  la résidence Fusion de Bessa Promotion Immobilière offre toutes les commodités d'un lieu de vie calme et convivial.
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{ site.data.images.residences.fusion.cover }}"/></div>
+</div>
+<div class="presentation-residence">
+
+      <h4 class="justify-align">Présentation</h4>
+      <p class="justify-align">Située dans une rue à la vue dégagée, entourée de verdure et de maison individuelles, la résidence Fusion à Boudjemaa Temim (Draria) possède tous
+        les atouts d'une petit immeuble au charme discret.</p>
+<p class="justify-align">
+La résidence Fusion de distingue par sa conception inspirée des maisons traditionnelles algériennes avec un patio , source de lumière, d'air frais et lieu de vie convivial
+</p>
+<p class="justify-align">
+  Avec seulement 86 logements et deux appartements par palier, la résidence Fusion est idéale pour ceux qui souhaitent vivre dans un environnent
+  calme et intimiste, tout en restant proches du centre-ville
+</p>
+
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.fusion %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+   <div class="col s12 m6">
+      <div class="slider">
+      <ul class="slides">
+        {% for item in site.data.images.residences.fusion.slider %}
+        <li>
+          <img src="{{item.slide}}" alt="{{item.alt}}" >
+             </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+   </div>
+
+
+ </div>

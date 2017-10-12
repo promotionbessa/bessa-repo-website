@@ -1,0 +1,62 @@
+---
+layout: residence
+title: Résidence Les Sapins 2 |appartement Chéraga Dély Brahim
+slug: Les Sapins2
+permalink: /projets-en-cours/sapin-ii.html
+redirect_from: [/fr/projets-en-cours/sapins-ii,/en/ongoing-project/sapins-ii,/es/proyectos-en-curso/sapins-ii]
+delivery: Décembre 2017
+location: Chéraga-Dely Brahim
+description: Située entre Chéraga et Dely Brahim, La résidence Les Sapins 2 de Bessa Promotion Immobilière allie modernité et environnement proche de la nature.
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{ "img/residence/sapin2/cover.jpg" | relative_url }}"/></div>
+</div>
+<div class="presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Située entre Chéraga et Dely Brahim avec un accès rapide vers le Bois des Cars, la résidence Les Sapin 2 offre un cadre vie unique alliant environnement proche de la nature et esthétique d’une architecture moderne.
+</p>
+<p>
+  La résidence est constituée de cinq blocs agencés de sorte à avoir des vues dégagées sur l’ensemble du site, particulièrement depuis les terrasses de ses duplex.
+</p>
+<p>
+  Profitez de ces lieux de vie spacieux et lumineux, ouvrant sur des espaces verts, et optez pour le confort de nos appartements aménagés avec des matériaux de qualité et bénéficiant d’un travail de finitions des plus soignés.
+</p>
+</div>
+
+
+ <div class="row padding">
+
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.sapins2 %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+     <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+       {% for item in site.data.images.residences.sapin2.slider %}
+       <li>
+         <img src="{{item.slide}}" alt="{{item.alt}}" >
+            </li>
+       {% endfor %}
+     </ul>
+   </div>
+
+   </div>
+ </div>

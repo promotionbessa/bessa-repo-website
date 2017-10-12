@@ -1,0 +1,33 @@
+residences:
+
+- title: Résidence Fusion
+  url: /projets-en-cours/fusion.html
+  content: Située dans un quartier paisible et retiré de Draria, la résidence Fusion a été conçue autour d’un patio, offrant à la fois une luminosité exceptionnelle et un sentiment de convivialité.
+  image: /img/homepage/fusion.jpg
+  status: encours
+
+- title: Résidence Massiva
+  url: /nouveautes/massiva.html
+  content: Envie de vivre au calme tout étant proche de tout ? Découvrez la résidence Massiva à Birkhadem, un projet implanté sur un site exceptionnel à quelques dizaines de minutes du centre d’Alger
+  image: /img/homepage/massiva.jpg
+  status: new
+- title: Résidence Les Massyles
+  url: /nouveautes/les-massyles.html
+  content: Découvrez en avant-première notre nouvelle résidence Les Massyles dans le quartier des Grands Vents entre Ouled Fayet et Chéraga , un projet luxueux de deux tours à l’architecture contemporaine
+  image: /img/homepage/massyles.jpg
+  status: new
+- title: Résidence Midelt1
+  url: /residence/midelt1.html
+  content: Implantée à Ouled Fayet avec un accès direct sur l’autoroute, la résidence Midelt 1 se caractérise par son architecture moderne et atypique et les grandes terrasses de ses appartements haut-standing.
+  image: /img/homepage/midelt1.jpg
+  status: encours
+- title: Résidence Garden
+  url: /projets-en-cours/garden.html
+  content: Située dans un des quartiers les plus prisés d'Alger, la résidence Garden à Sidi Yahia se distingue par son architecture inspirée par la nature.
+  image: /img/homepage/garden.jpg
+  status: encours
+- title: Résidence Midelt3
+  url: /projets-en-cours/midelt-03.html
+  content: Laissez-vous charmer par les lignes modernes et les appartements haut standing spacieux de cette magnifique résidence à Ouled Fayet non loin de nos références Gaya et Irat.
+  image: /img/homepage/midelt3.jpg
+  status: encours

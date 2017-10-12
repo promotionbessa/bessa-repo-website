@@ -1,0 +1,61 @@
+---
+layout: residence
+title: Résidence Midelt 2 | Promotion immobilière à Ouled Fayet
+permalink: /projets-en-cours/midelt-02.html
+delivery: 2018
+location: Ouled Fayet
+redirect_from: [/fr/projets-en-cours/midelt-02,/en/ongoing-project/midelt-02,/es/proyectos-en-curso/midelt-02]
+slug: Midelt2
+description: Découvrez la Résidence Midelt 2 de Bessa Promotion Immobilière, un ensemble résidentiel haut standing à Ouled Fayet
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{  site.data.images.residences.midelt2.cover}}"/></div>
+</div>
+<div class="  presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Dans le prolongement de notre projet d’installer durablement un environnement résidentiel de qualité dans la commune de Ouled Fayet, nous vous proposons de découvrir la résidence Midelt 2 qui sera érigée à proximité de Midelt 1 et non loin de nos résidences  de référence, Gaya et Irat.
+</p>
+<p>
+  Tout aussi ambitieux d’un point  de vue architectural, ce projet de résidence se présente sous la forme de 7 bâtiments de 9 étages avec des appartements, allant du F3 au F4 avec différents choix de surfaces.
+</p>
+<p>
+  Le cachet de cette résidence réside dans une utilisation judicieuse des formes cubiques permettant d’obtenir des volumes très intéressants du point de vue de l’aménagement des espaces intérieurs et des lieux de vie en commun.
+</p>
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.midelt2 %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+   <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+       {% for item in site.data.images.residences.midelt2.slider %}
+       <li>
+         <img src="{{item.slide}}" alt="{{item.alt}}" >
+            </li>
+       {% endfor %}
+     </ul>
+   </div>
+
+   </div>
+ </div>

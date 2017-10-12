@@ -1,0 +1,60 @@
+---
+layout: residence
+title: Résidence Massiva | Promotion Immobilière à Djenane Sfari
+permalink: /nouveautes/massiva.html
+redirect_from: [/fr/nouveautes/massiva,/en/news/massiva,/es/novedades/massiva]
+delivery: Fin 2018
+slug: Massiva
+location: Djenane Sfari
+description: Découvrez un projet exceptionnel de promotion immobilère à Djenane Sfari, la résidence Massiva de Bessa Promotion
+---
+<div class="parallax-container hide-on-med-and-down">
+  <div class="parallax"><img src="{{site.data.images.residences.massiva.cover}}"/></div>
+</div>
+<div class="presentation-residence">
+
+  <h4>Présentation</h4>
+<p>
+  Au cœur d'un site exceptionnel de la commune de Birkhadem qui s'étend sur un vaste territoire composé d'un centre urbain important avec plusieurs équipements, découvrez la résidence Massiva.
+</p>
+<p>
+  Située à Djenane Sfari, à proximité de notre résidence La Belle-Colline et dans un environnement immédiat verdoyant, sans vis-à-vis, avec un voisinage de maisons individuelles, la résidence se compose de cinq blocs abritant plusieurs typologies d’appartements du F3 au F5.
+</p>
+<p>
+  Profitez de l’air paisible et pur de la campagne dans cette résidence qui sera très accessible grâce aux multiples aménagements routiers en cours dans le quartier.
+</p>
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12 m6">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.massiva %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>   <div class="col s12 m6">
+     <div class="slider">
+     <ul class="slides">
+       {% for item in site.data.images.residences.massiva.slider %}
+       <li>
+         <img src="{{item.slide}}" alt="item.alt" >
+            </li>
+       {% endfor %}
+     </ul>
+   </div>
+
+   </div>
+ </div>
