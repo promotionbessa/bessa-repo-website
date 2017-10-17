@@ -54,17 +54,23 @@ function checkSidebarOpen(){
 // scrolling configuration ? get the dimensions of te footer and container
 var $containerWidth= $(".bg-bessa").width();
 var $footerHeight= $("footer").outerHeight();
+var $nav = $(".navbar-fixed nav");
 
 $( window ).resize(function() {
    $containerWidth= $(".bg-bessa").width();
    $footerHeight= $("footer").outerHeight();
    setFooter();
+   setNavbar();
 });
+function setNavbar(){
+  $nav.css("width",$containerWidth)
+}
 function setFooter(){
   $("footer").css("width",$containerWidth);
   $(".bg-bessa").css("marginBottom",$footerHeight);
 }
 setFooter();
+setNavbar();
 
 var amimationSettings ={
   fast: 200,

@@ -19,7 +19,17 @@
 
     ];
     Materialize.scrollFire(options);
-    
+    $(".owl-carousel").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayHoverPause: true,
+    rewind: true,
+    dots: true,
+    loop: true,
+    animateIn: true,
+    animateOut: "fadeOut"
+  });
+
 
 
     $('.parallax').parallax();
@@ -28,9 +38,8 @@
     $(window).load(function() {
        $('.preloader').fadeOut();
     });
-       $('.slider').slider({
-         height: 400
-       });
+       
+
   $('.materialboxed').materialbox();
     $('select').material_select();
     $('ul.tabs').tabs();

@@ -14,21 +14,19 @@ location: Ouled Fayet
 </div>
   <div class="main-reference">
     <div class="presentation-header">
-      <h4 class="bessa-color">Présentation</h4>
       <p>La résidence Irat est située à Ouled Fayet. Elle est la seconde réalisation de Bessa Promotion Immobilière</p>
-     <p> Implantée le long du boulevard Oued Bridja à quelque minutes de l'autoroute, la résidence Irat se distingue par la qualité des finitions des appartements et des matériaux utilisés.</p>
+     <p> Implantée le long du boulevard Oued Bridja à quelques minutes de l'autoroute, la résidence Irat se distingue par la qualité des finitions des appartements et des matériaux utilisés.</p>
       <p> Livrée en 2012, cette résidence conviviale et élégante constitue une de nos meilleures réalisations. </p>
     </div>
         <div class="presentaion-image">
 
-           <div class="slider">
-           <ul class="slides">
-             {% for item in site.data.images.references.irat.slider %}
-             <li>
-               <img src="{{item.slide}}" alt="{{item.alt}}" >
-                  </li>
+          <div class="owl-carousel owl-theme owl-loaded">
+            {% for item in site.data.images.references.irat.slider %}
+               <div class="item">
+                 <img src="{{item.slide}}">
+               </div>
              {% endfor %}
-           </ul>
-         </div>
+          </div>
+
         </div>
 </div>

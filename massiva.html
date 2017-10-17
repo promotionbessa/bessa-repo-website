@@ -6,7 +6,9 @@ redirect_from: [/fr/nouveautes/massiva,/en/news/massiva,/es/novedades/massiva]
 delivery: Fin 2018
 slug: Massiva
 location: Djenane Sfari
+map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55614.73412557831!2d3.014498723251077!3d36.70094358062422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDQxJzQzLjkiTiAzwrAwMic0My44IkU!5e0!3m2!1sfr!2sdz!4v1508255954194
 description: Découvrez un projet exceptionnel de promotion immobilère à Djenane Sfari, la résidence Massiva de Bessa Promotion
+file: massiva
 ---
 <div class="parallax-container hide-on-med-and-down">
   <div class="parallax"><img src="{{site.data.images.residences.massiva.cover}}"/></div>
@@ -18,7 +20,7 @@ description: Découvrez un projet exceptionnel de promotion immobilère à Djena
   Au cœur d'un site exceptionnel de la commune de Birkhadem qui s'étend sur un vaste territoire composé d'un centre urbain important avec plusieurs équipements, découvrez la résidence Massiva.
 </p>
 <p>
-  Située à Djenane Sfari, à proximité de notre résidence La Belle-Colline et dans un environnement immédiat verdoyant, sans vis-à-vis, avec un voisinage de maisons individuelles, la résidence se compose de cinq blocs abritant plusieurs typologies d’appartements du F3 au F5.
+  Située à Djenane Sfari, à proximité de notre résidence La Belle-Colline et dans un environnement immédiat verdoyant, sans vis-à-vis, avec un voisinage de maisons individuelles, la résidence se compose de plusieurs blocs abritant plusieurs typologies d’appartements du F2 au F5.
 </p>
 <p>
   Profitez de l’air paisible et pur de la campagne dans cette résidence qui sera très accessible grâce aux multiples aménagements routiers en cours dans le quartier.
@@ -46,15 +48,14 @@ description: Découvrez un projet exceptionnel de promotion immobilère à Djena
             </tbody>
           </table>
    </div>   <div class="col s12 m6">
-     <div class="slider">
-     <ul class="slides">
+
+     <div class="owl-carousel owl-theme owl-loaded">
        {% for item in site.data.images.residences.massiva.slider %}
-       <li>
-         <img src="{{item.slide}}" alt="item.alt" >
-            </li>
-       {% endfor %}
-     </ul>
-   </div>
+          <div class="item">
+            <img src="{{item.slide}}">
+          </div>
+        {% endfor %}
+     </div>
 
    </div>
  </div>

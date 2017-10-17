@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bessa Promotion | Nos équipement pour votre sécurité
-slug: Sécurite
+slug: Sécurité
 permalink: /eco-design/securite.html
 redirect_from: [/fr/eco-design/securite,/es/eco-design/seguridad]
 description: Bessa Promotion garanti votre bien être et sécurité en équipant votre appartement avec des technologies performantes
@@ -16,7 +16,7 @@ description: Bessa Promotion garanti votre bien être et sécurité en équipant
 </div>
 
 <div class="padding">
-<p class="flow-text"> Parce que nous plaçons votre bien-être et votre sécurité au-dessus de tout, nous équipons votre résidence avec des technologies performantes séléctionnées chez des fournisseur de référence mondiale</p>
+<p class="flow-text"> Parce que nous plaçons votre bien-être et votre sécurité au-dessus de tout, nous équipons votre résidence avec des technologies performantes sélectionnées chez des fournisseurs de référence mondiale</p>
 
 
   <div class="main-reference z-depth-1">
@@ -33,18 +33,14 @@ description: Bessa Promotion garanti votre bien être et sécurité en équipant
       </ul>
   </div>
   <div class="presentaion-image">
-    <div class="slider">
-    <ul class="slides">
+    <div class="owl-carousel owl-theme owl-loaded">
       {% for item in site.data.ecodesign.securite.interior.slider %}
-      <li>
-        <img src="{{item.slide}}" class="responsive-img" alt="{{item.alt}}">
-      </li>
-      {% endfor %}
-      <!-- <li>
-        <img src="/img/references/gaya/living4.jpg" class="responsive-img" alt="cuisine">
-      </li> -->
-    </ul>
-  </div>
+         <div class="item">
+           <img src="{{item.slide}}">
+         </div>
+       {% endfor %}
+    </div>
+
     </div>
 </div>
 <div class="main-reference z-depth-1">
@@ -60,16 +56,14 @@ description: Bessa Promotion garanti votre bien être et sécurité en équipant
    </ul>
   </div>
   <div class="presentaion-image">
-    <div class="slider">
-    <ul class="slides">
+    <div class="owl-carousel owl-theme owl-loaded">
       {% for item in site.data.ecodesign.securite.exterior.slider %}
-      <li>
-        <img src="{{item.slide}}" class="responsive-img" alt="{{item.alt}}">
-      </li>
-      {% endfor %}
+         <div class="item">
+           <img src="{{item.slide}}">
+         </div>
+       {% endfor %}
+    </div>
 
-    </ul>
-  </div>
   </div>
 
 </div>

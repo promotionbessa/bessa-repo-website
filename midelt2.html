@@ -4,6 +4,7 @@ title: Résidence Midelt 2 | Promotion immobilière à Ouled Fayet
 permalink: /projets-en-cours/midelt-02.html
 delivery: 2018
 location: Ouled Fayet
+map:
 redirect_from: [/fr/projets-en-cours/midelt-02,/en/ongoing-project/midelt-02,/es/proyectos-en-curso/midelt-02]
 slug: Midelt2
 description: Découvrez la Résidence Midelt 2 de Bessa Promotion Immobilière, un ensemble résidentiel haut standing à Ouled Fayet
@@ -47,15 +48,13 @@ description: Découvrez la Résidence Midelt 2 de Bessa Promotion Immobilière, 
           </table>
    </div>
    <div class="col s12 m6">
-     <div class="slider">
-     <ul class="slides">
+     <div class="owl-carousel owl-theme owl-loaded">
        {% for item in site.data.images.residences.midelt2.slider %}
-       <li>
-         <img src="{{item.slide}}" alt="{{item.alt}}" >
-            </li>
-       {% endfor %}
-     </ul>
-   </div>
+          <div class="item">
+            <img src="{{item.slide}}">
+          </div>
+        {% endfor %}
+     </div>
 
    </div>
  </div>

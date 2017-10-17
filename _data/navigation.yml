@@ -15,13 +15,16 @@ links:
   url: "#"
   id: projets-en-cours
 
+- title: Travaux
+  url: /projets-en-cours/avancement-des-travaux.html
+
 - title: Eco-design
   url: "#"
 
 - title: Services
   url: "#"
   id: services
-- title: Recrutement
+- title: Carrière
   url: /recrut
 - title: Contact
   url: /contactez-nous

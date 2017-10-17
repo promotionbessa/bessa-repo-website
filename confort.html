@@ -34,19 +34,14 @@ description: Bessa Promotion équipe votre futur appartement avec les meilleurs 
         </ul>
       </div>
       <div class="presentaion-image">
-        <div class="slider">
-        <ul class="slides">
-          {% for item in site.data.ecodesign.confort.interior.slider %}
-          <li>
-            <img src="{{item.slide}}" class="responsive-img" alt="{{item.alt}}">
-          </li>
-          {% endfor %}
-          <!-- <li>
-            <img src="/img/references/gaya/living4.jpg" class="responsive-img" alt="cuisine">
-          </li> -->
+        <div class="owl-carousel owl-theme owl-loaded">
+           {% for item in site.data.ecodesign.confort.interior.slider %}
+             <div class="item">
+               <img src="{{item.slide}}">
+             </div>
+           {% endfor %}
+        </div>
 
-        </ul>
-      </div>
         </div>
     </div>
     <div class="main-reference z-depth-1">
@@ -59,16 +54,15 @@ description: Bessa Promotion équipe votre futur appartement avec les meilleurs 
           </ul>
       </div>
       <div class="presentaion-image">
-        <div class="slider">
-        <ul class="slides">
-          {% for item in site.data.ecodesign.confort.exterior.slider %}
-          <li>
-            <img src="{{item.slide}}" class="responsive-img" alt="{{item.alt}}">
-          </li>
-          {% endfor %}
 
-        </ul>
-      </div>
+        <div class="owl-carousel owl-theme owl-loaded">
+           {% for item in site.data.ecodesign.confort.exterior.slider %}
+             <div class="item">
+               <img src="{{item.slide}}">
+             </div>
+           {% endfor %}
+        </div>
+        
       </div>
 
 </div>

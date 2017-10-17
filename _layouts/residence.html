@@ -22,3 +22,33 @@ layout: default
           </div>
           </div>
           {% endif %}
+
+          {% if page.file %}
+                    <div class="avancement">
+                      <div class="main-reference">
+                        <div class="presentation-header">
+                          <h4 class="white-text">Avancement de la résidence {{page.slug}}</h4>
+                           <p>Mise a jour le 7/7/2017 </p>
+                       </div>
+                            <div class="presentaion-image">
+                            <div class="owl-carousel owl-theme owl-loaded">
+                                {% for item in site.data.avancement.projects[page.file].slider %}
+                                  <div class="item">
+
+
+                                 <img src="{{item.slide}}">
+                               </div>
+                                 {% endfor %}
+
+                               </div>
+                               </div>
+                            </div>
+
+                    </div>
+          {% endif %}
+
+              <div class="video-container">
+
+              <iframe src="{{page.map}}" width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+              </div>

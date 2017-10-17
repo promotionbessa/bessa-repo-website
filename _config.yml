@@ -1,6 +1,7 @@
 
 email: contact@bessapromotion.com
 description: > # this means to ignore newlines until "baseurl:"
+google_maps_javascript_api_key: "AIzaSyBBaTWG9lPQ4zidxNDHGeBKMFfpfxZryRo"
 sass:
     style: compressed
 exclude:
