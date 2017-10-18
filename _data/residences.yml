@@ -16,7 +16,7 @@ residences:
   content: Découvrez en avant-première notre nouvelle résidence Les Massyles dans le quartier des Grands Vents entre Ouled Fayet et Chéraga , un projet luxueux de deux tours à l’architecture contemporaine
   image: /img/homepage/massyles.jpg
   status: new
-- title: Résidence Midelt1
+- title: Résidence Midelt 1
   url: /residence/midelt1.html
   content: Implantée à Ouled Fayet avec un accès direct sur l’autoroute, la résidence Midelt 1 se caractérise par son architecture moderne et atypique et les grandes terrasses de ses appartements haut-standing.
   image: /img/homepage/midelt1.jpg
@@ -26,7 +26,7 @@ residences:
   content: Située dans un des quartiers les plus prisés d'Alger, la résidence Garden à Sidi Yahia se distingue par son architecture inspirée par la nature.
   image: /img/homepage/garden.jpg
   status: encours
-- title: Résidence Midelt3
+- title: Résidence Midelt 3
   url: /projets-en-cours/midelt-03.html
   content: Laissez-vous charmer par les lignes modernes et les appartements haut standing spacieux de cette magnifique résidence à Ouled Fayet non loin de nos références Gaya et Irat.
   image: /img/homepage/midelt3.jpg

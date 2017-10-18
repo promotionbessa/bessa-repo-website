@@ -10,19 +10,11 @@ slug: Garden
 description: Découvrez la magnifique Résidence Garden, un ensemble d'appartements haut standing dans le quartier très prisé de Sidi Yahia.
 file: garden
 ---
-<div class="col s12 m6 hide-on-med-and-up">
-  <div class="slider">
-  <ul class="slides">
-    {% for item in site.data.images.residences.garden.slider %}
-    <li>
-      <img src="{{item.slide}}" alt="item.alt" >
-         </li>
-    {% endfor %}
-  </ul>
-</div>
+<div class="col s12 m6">
+
 
 </div>
-<div class="parallax-container hide-on-med-and-down">
+<div class="parallax-container ">
   <div class="parallax"><img src="{{ site.data.images.residences.garden.cover }}"/></div>
 </div>
 <div class="presentation-residence">
@@ -60,7 +52,7 @@ file: garden
             </tbody>
           </table>
    </div>
-   <div class="col s12 m6 hide-on-med-and-down">
+   <div class="col s12 m6">
      <div class="owl-carousel owl-theme owl-loaded">
         {% for item in site.data.images.residences.garden.slider %}
           <div class="item">

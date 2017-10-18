@@ -49,7 +49,53 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
     animateOut: "fadeOut"
   });
 
+  function getCaption(){
 
+      var captionbellecolline = $(".bellecolline .owl-item.active .item").children();
+      var myTextbellecolline =  captionbellecolline.data().caption;
+      $(".alt-stuff-bellecolline").text(myTextbellecolline);
+      console.log( $(".bellecolline .owl-item.active .item").children().data().caption);
+
+      var captionGarden = $(".garden .owl-item.active .item").children();
+      var myTextGarden = captionGarden.data().caption;
+      $(".alt-stuff-garden").text(myTextGarden);
+
+      var captionMidelt1 = $(".midelt1 .owl-item.active .item").children();
+      var myTextMidelt1= captionMidelt1.data().caption;
+      $(".alt-stuff-midelt1").text(myTextMidelt1);
+
+      var captionMidelt3 = $(".midelt3 .owl-item.active .item").children();
+      var myTextMidelt3= captionMidelt3.data().caption;
+      $(".alt-stuff-midelt3").text(myTextMidelt3);
+
+      var captionMassiva= $(".massiva .owl-item.active .item").children();
+      var myTextmassiva= captionMassiva.data().caption;
+      $(".alt-stuff-massiva").text(myTextmassiva);
+
+      var captionMassiva= $(".massiva .owl-item.active .item").children();
+      var myTextmassiva= captionMassiva.data().caption;
+      $(".alt-stuff-fusion").text(myTextfusion);
+
+      var captionFusion= $(".fusion .owl-item.active .item").children();
+      var myTextfusion= captionFusion.data().caption;
+      $(".alt-stuff-fusion").text(myTextfusion);
+
+      var captionSapins2= $(".sapins2 .owl-item.active .item").children();
+      var myTextsapins2= captionSapins2.data().caption;
+      $(".alt-stuff-sapins2").text(myTextsapins2);
+
+  }
+$(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
+  event.preventDefault();
+    getCaption()
+
+  });
+
+  if ( $(".smart").length ){
+    getCaption()
+
+  }
+  $(".avancement").on("click",getCaption)
 
     $('.parallax').parallax();
 
@@ -57,7 +103,7 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
     $(window).load(function() {
        $('.preloader').fadeOut();
     });
-       
+
 
   $('.materialboxed').materialbox();
     $('select').material_select();
@@ -194,4 +240,4 @@ if( ( $(".value").length ) && wScroll > $(".value").offset().top - ($(window).he
 });
 
 
-   });
+ });

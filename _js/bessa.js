@@ -113,4 +113,4 @@ if( ( $(".value").length ) && wScroll > $(".value").offset().top - ($(window).he
 });
 
 
-   });
+ });
