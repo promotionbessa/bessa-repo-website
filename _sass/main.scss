@@ -1,4 +1,6 @@
 @import "materialize/materialize";
+$bessa-color: #c40d1e;
+$bessa-color-secondary: #616161;
 
 * {
   box-sizing: border-box;
@@ -8,10 +10,10 @@ html {
   overflow-y: scroll; }
 
 .bessa-color {
-  color: #c40d1e !important; }
+  color: $bessa-color !important; }
 
 .bessa-bg-red {
-  background: #c40d1e !important; }
+  background: $bessa-color !important; }
 
 .material-icons {
   color: black;
@@ -57,13 +59,13 @@ main {
 
 .cta {
   height: 60px;
-  background: #c40d1e;
+  background: $bessa-color;
   z-index: 500;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: #c40d1e; }
+  background: $bessa-color; }
   .cta a {
     height: 100%;
     display: flex;
@@ -102,7 +104,7 @@ main {
 nav {
   background: white; }
   nav li a {
-    color: #616161;
+    color: $bessa-color-secondary;
     font-size: 1em;
     font-weight: 400;
    }
@@ -125,7 +127,7 @@ nav .dropdown-content li a:hover {
 }
 
 nav .dropdown-content li > a, .dropdown-content li > span {
-  color: #616161;
+  color: $bessa-color-secondary;
   font-size: 1em; }
 
 .side-nav img {
@@ -171,7 +173,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
   align-items: center;
   z-index: 300; }
   .sidebar .sidbar-trigger {
-    background: #c40d1e;
+    background: $bessa-color;
     padding: 20px;
     cursor: pointer;
     color: white;
@@ -182,7 +184,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
       transform: translate(-2px); }
   .sidebar .social {
     animation: yoyo 500ms ease-in-out;
-    background: #c40d1e;
+    background: $bessa-color;
     flex-direction: column;
     justify-content: center;
     z-index: 0;
@@ -214,7 +216,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
   z-index: 100;
   border: none;
   outline: none;
-  background-color: #c40d1e;
+  background-color: $bessa-color;
   color: white;
   cursor: pointer;
   padding: 25px;
@@ -251,14 +253,14 @@ nav .dropdown-content li > a, .dropdown-content li > span {
     display: block; }
     .call-to-action a i {
       color: white;
-      background: #c40d1e;
+      background: $bessa-color;
       font-size: 30px;
       padding: 20px;
       border-radius: 100%; }
 
 .banner {
   animation: fade-in 1s ease-in-out forwards;
-  background: #c40d1e;
+  background: $bessa-color;
   width: 100%;
   padding: 20px; }
   .banner h2 {
@@ -345,7 +347,7 @@ video {
   transform: translateY(-50px); }
 
 .card-reveal span.card-title {
-  color: #c40d1e !important;
+  color: $bessa-color !important;
 
 }
 
@@ -354,7 +356,7 @@ video {
 
 .quote-media {
   padding: 50px;
-  background: #c40d1e;
+  background: $bessa-color;
   transition: all 300ms ease-in-out;
   transform: translateX(-500px);
   transition: all 1s ease; }
@@ -392,7 +394,7 @@ video {
   padding: 40px 0px; }
   .letter .pdg::first-letter {
     font-size: 70px;
-    color: #c40d1e; }
+    color: $bessa-color; }
 
 @media (max-width: 650px) {
   .letter-wrapper {
@@ -412,7 +414,7 @@ video {
       transform: translateY(-50px); }
       .why .value .val span {
         padding: 30px;
-        background: #c40d1e;
+        background: $bessa-color;
         color: white;
         font-size: 30px;
         transition: all 400ms ease;
@@ -421,7 +423,7 @@ video {
         box-shadow: 2px 2px 25px -10px black;
         transform: translateY(-5px); }
       .why .value .val:hover h5 {
-        color: #c40d1e; }
+        color: $bessa-color; }
       .why .value .val .handMe {
         padding: 30px 23px; }
       .why .value .val p {
@@ -439,13 +441,13 @@ h3 {
 .blog-header{
   font-weight: 300;
   a{
-    color: #c40d1e;
+    color: $bessa-color;
   }
 
 }
 .newsletter-container {
   padding: 20px;
-  background: #c40d1e;
+  background: $bessa-color;
   color: white;
   opacity: 0;
   transform: translateX(-500px);
@@ -458,7 +460,7 @@ h3 {
       font-size: 20px;
       margin-left: 8px;
       i{
-        color: #c40d1e;
+        color: $bessa-color;
         font-size: 1.5em;
       }
     }
@@ -547,7 +549,7 @@ footer {
   padding: 50px; }
 
 .btn {
-  background: #c40d1e;
+  background: $bessa-color;
   border-radius: 8px;
   transition: 300ms ease-in-out;
  }
@@ -666,7 +668,7 @@ footer {
 .presentation-residence{
   background: #f5f5f5;
   padding: 20px 30px;
-  color: #616161;
+  color: $bessa-color-secondary;
   h2{
     margin: 0px
   }
@@ -681,25 +683,39 @@ footer {
 }
 // avancement
 .avancement{
-  box-shadow: 1px 1px 25px #333;
   background: #fff;
-  padding: 10px 0px;
+  transition: transform .3s ease-out;
+  padding: 10px 20px 0px 0px;
+  margin: 10px 20px;
+
 
   h4{
-    color: #c40d1e !important;
-    font-weight: 300;
+    color: white !important;
+    font-weight: 500 !important;
   }
 
   p{
-    color: #616161;
+    color: $bessa-color;
+    font-size: 1em !important;
   }
   img{
-    filter: grayscale(10%);
+    filter: grayscale(0%);
+    transition: transform 400ms ease-in-out;
   }
-  .caption{
-    color: #333 ;
+  img:hover{
+    transform: scale(1.08);
+  }
+
+  .caption-magic{
+    color: $bessa-color-secondary ;
+    font-size: 1.5em !important;
 
   }
+}
+.avancement:hover{
+  transform: scale(1.01);
+  box-shadow: 2px 2px 25px #d4d4db;
+  background: #fdfdfd;
 }
 .span.badge.new{
   position: absolute !important;
@@ -814,13 +830,38 @@ footer {
 
 .delivery-date{
   background: #f5f5f5;
-  color: #616161;
+  color: $bessa-color-secondary;
   text-align: center;
   padding: 20px 10px;
 }
 @media (max-width: 800px) {
 .padding{
   padding: 20px;
+}
+.avancement{
+  background: #fff;
+  transition: transform .3s ease-out;
+  padding:  0px 0px ;
+  margin: 0px;
+
+
+  h4{
+    color: white !important;
+    font-weight: 500 !important;
+  }
+
+  p{
+    color: $bessa-color;
+    font-size: 1em !important;
+  }
+  img{
+    filter: grayscale(10%);
+  }
+  .caption-magic{
+    color: $bessa-color-secondary ;
+    font-size: 1.5em !important;
+
+  }
 }
 
 }
@@ -835,7 +876,7 @@ footer {
   .info{
     padding: 12px;
   i{
-    color: #c40d1e;
+    color: $bessa-color;
     margin-right: 12px;
     font-size: 18px;
   }
@@ -851,7 +892,7 @@ footer {
 }
 
 
-// 
+//
 .owl-theme .owl-controls .owl-page {
     display: inline-block;
 }
