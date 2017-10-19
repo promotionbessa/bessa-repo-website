@@ -886,6 +886,10 @@ footer {
   }
   }
 }
+// iframe styling
+.map{
+  filter: grayscale(80%);
+}
 // side nav overlay fix 996 or lower
 #sidenav-overlay {
   z-index: 996;

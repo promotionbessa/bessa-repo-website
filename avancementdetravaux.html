@@ -22,7 +22,7 @@ description: Consultez les photos les plus récentes de l'avancement des travaux
         <div class="owl-carousel smart owl-theme owl-loaded bellecolline">
            {% for item in site.data.avancement.projects.bellecolline.slider %}
              <div class="item">
-               <img src="{{item.slide}}" alt="{{item.alt}}" data-caption="{{item.stuff}}">
+               <img src="{{item.slide}}" alt="{{item.alt}}" data-caption="{{item.caption}}">
              </div>
            {% endfor %}
         </div>

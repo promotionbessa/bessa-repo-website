@@ -8,12 +8,12 @@ residences:
 
 - title: Résidence Massiva
   url: /nouveautes/massiva.html
-  content: Envie de vivre au calme tout étant proche de tout ? Découvrez la résidence Massiva à Birkhadem, un projet implanté sur un site exceptionnel à quelques dizaines de minutes du centre d’Alger
+  content: Envie de vivre au calme tout en étant proche de tout ? Découvrez la résidence Massiva à Birkhadem, un projet implanté sur un site exceptionnel à quelques dizaines de minutes du centre d’Alger.
   image: /img/homepage/massiva.jpg
   status: new
 - title: Résidence Les Massyles
   url: /nouveautes/les-massyles.html
-  content: Découvrez en avant-première notre nouvelle résidence Les Massyles dans le quartier des Grands Vents entre Ouled Fayet et Chéraga , un projet luxueux de deux tours à l’architecture contemporaine
+  content: Découvrez en avant-première notre nouvelle résidence Les Massyles dans le quartier des Grands Vents entre Ouled Fayet et Chéraga, un projet luxueux de deux tours à l’architecture contemporaine.
   image: /img/homepage/massyles.jpg
   status: new
 - title: Résidence Midelt 1
@@ -23,7 +23,7 @@ residences:
   status: encours
 - title: Résidence Garden
   url: /projets-en-cours/garden.html
-  content: Située dans un des quartiers les plus prisés d'Alger, la résidence Garden à Sidi Yahia se distingue par son architecture inspirée par la nature.
+  content: Située dans l'un des quartiers les plus prisés d'Alger, la résidence Garden à Sidi Yahia se distingue par son architecture inspirée par la nature.
   image: /img/homepage/garden.jpg
   status: encours
 - title: Résidence Midelt 3

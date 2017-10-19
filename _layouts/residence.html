@@ -27,19 +27,17 @@ layout: default
                     <div class="avancement">
                       <div class="main-reference">
                         <div class="presentation-header">
-                          <h4 class="white-text">Avancement de la résidence {{page.slug}}</h4>
+                          <h4 class="underline--magical-full">Avancement de la résidence {{page.slug}}</h4>
                            <p>Mise a jour le 7/7/2017 </p>
+                           <p class="caption-magic alt-stuff-massiva"></p>
                        </div>
                             <div class="presentaion-image">
                             <div class="owl-carousel owl-theme owl-loaded">
                                 {% for item in site.data.avancement.projects[page.file].slider %}
                                   <div class="item">
-
-
-                                 <img src="{{item.slide}}">
+                                 <img src="{{item.slide}}" alt="{{item.alt}}" data-caption="{{item.caption}}">
                                </div>
                                  {% endfor %}
-
                                </div>
                                </div>
                             </div>
@@ -49,6 +47,6 @@ layout: default
 
               <div class="video-container">
 
-              <iframe src="{{page.map}}" width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="{{page.map}}" class="map" width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
 
               </div>
