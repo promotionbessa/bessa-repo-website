@@ -8,7 +8,6 @@
 
 
     <div class="container bg-bessa">
-    {% include header.html %}
     <style media="screen">
     html {
 font-family: sans-serif;
@@ -472,11 +471,13 @@ box-sizing: border-box;
 left: 50%;
 transform: translate(-50%); }
     </style>
+        {% include header.html %}
 
 
         {{ content }}
     {% include sidebar.html %}
     {% include footer.html %}
+
 </div>
     {% include script.html %}
 
