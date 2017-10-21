@@ -173,11 +173,13 @@ nav .dropdown-content li > a, .dropdown-content li > span {
 
 @media (max-width: 1020px) {
   nav {
-    height: 90px; }
+    height: 90px;
+  }
   .brand-logo img {
-    width: 200px;
+    width: 160px;
     margin-left: -40%;
     transform: translate(-50%);
+    top: 10px;
     z-index: 101; }
   .shape {
     display: none; } }
@@ -540,7 +542,9 @@ footer {
   bottom: 0px;
   box-sizing: border-box;
   left: 50%;
-  transform: translate(-50%); }
+  transform: translate(-50%);
+
+  }
 
 .bg-image {
   height: 60vh;
@@ -931,4 +935,9 @@ footer {
     margin: 5px 7px;
     opacity: 0.5;
     width: 12px;
+}
+p{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+
 }
