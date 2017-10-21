@@ -199,6 +199,8 @@ function setFooter(){
 setFooter();
 setNavbar();
 $(window).load(function() {
+  $containerWidth= $(".bg-bessa").width();
+  $footerHeight= $("footer").outerHeight();
    $('.preloader').fadeOut();
    setFooter();
    setNavbar();
