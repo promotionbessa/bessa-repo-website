@@ -71,7 +71,11 @@ function setFooter(){
 }
 setFooter();
 setNavbar();
-
+$(window).load(function() {
+   $('.preloader').fadeOut();
+   setFooter();
+   setNavbar();
+});
 var amimationSettings ={
   fast: 200,
   medium: 400,
