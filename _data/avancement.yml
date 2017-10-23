@@ -51,19 +51,19 @@ projects:
     slider:
       - slide: "/img/avancement/garden/01.jpg"
         alt: "gros oeuvre facade exterieure"
-        caption: "656542121"
+        caption: "Travaux de gros oeuvre"
       - slide: "/img/avancement/garden/02.jpg"
         alt: "gros oeuvre facade exterieure"
-        caption: "6565421asdasd21"
+        caption: "Travaux de gros oeuvre"
       - slide: "/img/avancement/garden/03.jpg"
         alt: "gros oeuvre facade exterieure"
-        caption: "656542121"
+        caption: "Travaux de gros oeuvre"
       - slide: "/img/avancement/garden/05.jpg"
         alt: "gros oeuvre facade exterieure"
-        caption: "656542121"
+        caption: "Travaux de gros oeuvre"
       - slide: "/img/avancement/garden/04.jpg"
         alt: "gros oeuvre facade exterieure"
-        caption: "65654111114772121"
+        caption: "Travaux de gros oeuvre"
 
   fusion:
     slider:
