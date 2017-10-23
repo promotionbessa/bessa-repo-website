@@ -128,11 +128,11 @@ residences:
       - slide: "/img/residence/massyles/04.jpg"
         alt: "vue exterieure les massyles"
   bellecolline:
-    cover: "/img/residence/bellecolline/cover-01.jpg"
+    cover: "/img/residence/bellecolline/cover.jpg"
     slider:
-      - slide: "/img/residence/bellecolline/01.jpg"
+      - slide: "/img/residence/bellecolline/vue-exterieure-01.jpg"
         alt: "vue exterieure bellecolline"
-      - slide: "/img/residence/bellecolline/02.jpg"
+      - slide: "/img/residence/bellecolline/vue-exterieure-02.jpg"
         alt: "vue exterieure bellecolline"
 
   fusion:
