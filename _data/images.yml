@@ -102,14 +102,20 @@ residences:
   garden:
     cover: "/img/residence/garden/cover.jpg"
     slider:
-      - slide: "/img/residence/garden/01.jpg"
+      - slide: "/img/residence/garden/vue-exterieure-01.jpg"
         alt: "vue exterieure jour garden"
-      - slide: "/img/residence/garden/02.jpg"
+      - slide: "/img/residence/garden/vue-exterieure-02.jpg"
+        alt: "vue exterieure jour garden"
+      - slide: "/img/residence/garden/vue-exterieure-02-nuit.jpg"
+        alt:  "vue exterieure nuit garden"
+      - slide: "/img/residence/garden/vue-exterieure-03.jpg"
         alt: "vue aerienne garden"
-      - slide: "/img/residence/garden/03.jpg"
-        alt: "vue exterieure nuit garden"
-      - slide: "/img/residence/garden/04.jpg"
+      - slide: "/img/residence/garden/vue-exterieure-route-01.jpg"
         alt: "vue exterieure garden depuis route"
+      - slide: "/img/residence/garden/vue-exterieure-route-02.jpg"
+        alt: "vue exterieure garden depuis route"
+      - slide: "/img/residence/garden/vue-exterieure-balcon.jpg"
+        alt: "vue exterieure balcon garden"
   massyles:
     cover: "/img/residence/massyles/cover.jpg"
     slider:
