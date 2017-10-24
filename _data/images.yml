@@ -79,7 +79,7 @@ references:
         alt: "entree residence sapins1"
 residences:
   massiva:
-    cover: "/img/residence/massiva/cover-01.jpg"
+    cover: "/img/residence/massiva/cover-02.jpg"
     slider:
       - slide: "/img/residence/massiva/vue-exterieure-01.jpg"
         alt: "vue exterieure esplanade massiva"
