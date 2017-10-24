@@ -100,7 +100,7 @@ residences:
       - slide: "/img/residence/massiva/vue-exterieure-route-nuit-02.jpg"
         alt: "vue exterieure massiva depuis route"
   garden:
-    cover: "/img/residence/garden/cover-02.jpg"
+    cover: "/img/residence/garden/cover-03.jpg"
     slider:
       - slide: "/img/residence/garden/vue-exterieure-01.jpg"
         alt: "vue exterieure jour garden"
