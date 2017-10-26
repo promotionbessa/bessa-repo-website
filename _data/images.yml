@@ -85,7 +85,7 @@ references:
         alt: "entree residence sapins1"
 residences:
   massiva:
-    cover: "/img/residence/massiva/cover-02.jpg"
+    cover: "/img/residence/massiva/cover.jpg"
     slider:
       - slide: "/img/residence/massiva/vue-exterieure-01.jpg"
         alt: "vue exterieure esplanade massiva"
@@ -128,10 +128,8 @@ residences:
       - slide: "/img/residence/massyles/01.jpg"
         alt: "vue exterieure les massyles"
       - slide: "/img/residence/massyles/02.jpg"
-        alt: "vue esplanade et magasins 3d les massyles"
+        alt: "vue exterieure les massyles"
       - slide: "/img/residence/massyles/03.jpg"
-        alt: "vue exterieur nuit les massyles"
-      - slide: "/img/residence/massyles/04.jpg"
         alt: "vue exterieure les massyles"
   bellecolline:
     cover: "/img/residence/bellecolline/cover.jpg"
