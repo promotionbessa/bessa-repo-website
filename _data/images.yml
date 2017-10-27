@@ -138,7 +138,8 @@ residences:
         alt: "vue exterieure bellecolline"
       - slide: "/img/residence/bellecolline/vue-exterieure-02.jpg"
         alt: "vue exterieure bellecolline"
-
+      - slide: "/img/residence/bellecolline/vue-exterieure-03.jpg"
+        alt: "vue exterieure bellecolline"
   fusion:
     cover: "/img/residence/fusion/cover.jpg"
     slider:
