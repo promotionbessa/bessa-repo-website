@@ -27,9 +27,7 @@ confort:
 securite:
   interior:
     slider:
-      - slide: "/img/securite/08.jpg"
-        alt: "cuisine"
-      - slide: "/img/securite/cuisine-02.jpg"
+      - slide: "/img/securite/porte-entree.jpg"
         alt: "cuisine"
 
   exterior:
