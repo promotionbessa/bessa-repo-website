@@ -7,7 +7,7 @@ sass:
 exclude:
    ['README.markdown', 'Gemfile.lock', 'Gemfile', 'gulpfile','README','screenshot','node_modules','CODE_OF_CONDUCT','LICENCE','package.json',package-lock.json]
 plugins:
-  ['jekyll-redirect-from','jekyll-seo-tag','octopress-autoprefixer']
+  ['jekyll-redirect-from','jekyll-seo-tag','octopress-autoprefixer','jekyll-sitemap']
 lang: fr
 author: Bessa Promotion
 social:

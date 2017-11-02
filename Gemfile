@@ -6,3 +6,4 @@ gem "jekyll"
 gem 'jekyll-redirect-from'
 gem 'jekyll-seo-tag'
 gem 'octopress-autoprefixer'
+gem 'jekyll-sitemap'
