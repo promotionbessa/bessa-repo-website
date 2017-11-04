@@ -11,8 +11,16 @@ description: Découvrez un projet exceptionnel de promotion immobilère à Djena
 file: massiva
 update: 14/10/2017
 ---
-<div class="parallax-container hide-on-med-and-down">
-  <div class="parallax"><img src="{{site.data.images.residences.massiva.cover}}"/></div>
+<div class="row">
+  <div class="col s12">
+    <div class="owl-carousel owl-theme owl-loaded">
+      {% for item in site.data.images.residences.massiva.slider %}
+         <div class="item">
+           <img src="{{item.slide}}" alt="{{item.alt}}">
+         </div>
+       {% endfor %}
+    </div>
+  </div>
 </div>
 <div class="presentation-residence">
 
@@ -23,7 +31,7 @@ update: 14/10/2017
 
 
  <div class="row padding">
-   <div class="col s12 m6">
+   <div class="col s12">
      <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
      <table class="bordered centered striped">
             <thead>
@@ -41,15 +49,5 @@ update: 14/10/2017
               {% endfor %}
             </tbody>
           </table>
-   </div>   <div class="col s12 m6">
-
-     <div class="owl-carousel owl-theme owl-loaded">
-       {% for item in site.data.images.residences.massiva.slider %}
-          <div class="item">
-            <img src="{{item.slide}}" alt="{{item.alt}}">
-          </div>
-        {% endfor %}
-     </div>
-
    </div>
  </div>

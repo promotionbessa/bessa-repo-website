@@ -9,25 +9,26 @@ redirect_from: [/fr/projets-en-cours/midelt-02,/en/ongoing-project/midelt-02/,/e
 slug: Midelt 2
 description: Découvrez la Résidence Midelt 2 de Bessa Promotion Immobilière, un ensemble résidentiel haut standing à Ouled Fayet
 ---
-<div class="parallax-container hide-on-med-and-down">
-  <div class="parallax"><img src="{{  site.data.images.residences.midelt2.cover}}"/></div>
+<div class="row">
+  <div class="col s12">
+    <div class="owl-carousel owl-theme owl-loaded">
+      {% for item in site.data.images.residences.midelt2.slider %}
+         <div class="item">
+           <img src="{{item.slide}}">
+         </div>
+       {% endfor %}
+    </div>
+  </div>
 </div>
-<div class="  presentation-residence">
-
-<p>
-  Dans le prolongement de notre projet d’installer durablement un environnement résidentiel de qualité dans la commune de Ouled Fayet, nous vous proposons de découvrir la résidence Midelt 2 qui sera érigée à proximité de Midelt 1 et non loin de nos résidences  de référence, Gaya et Irat.
-</p>
-<p>
-  Tout aussi ambitieux d’un point  de vue architectural, ce projet de résidence se présente sous la forme de 7 bâtiments de 9 étages avec des appartements, allant du F3 au F4 avec différents choix de surfaces.
-</p>
-<p>
-  Le cachet de cette résidence réside dans une utilisation judicieuse des formes cubiques permettant d’obtenir des volumes très intéressants du point de vue de l’aménagement des espaces intérieurs et des lieux de vie en commun.
-</p>
+<div class="presentation-residence">
+  <p class="justify-align">Dans le prolongement de notre projet d’installer durablement un environnement résidentiel de qualité dans la commune de Ouled Fayet, nous vous proposons de découvrir la résidence Midelt 2 qui sera érigée à proximité de Midelt 1 et non loin de nos résidences  de référence, Gaya et Irat.</p>
+  <p class="justify-align">Tout aussi ambitieux d’un point  de vue architectural, ce projet de résidence se présente sous la forme de 7 bâtiments de 9 étages avec des appartements, allant du F3 au F4 avec différents choix de surfaces.</p>
+  <p class="justify-align">Le cachet de cette résidence réside dans une utilisation judicieuse des formes cubiques permettant d’obtenir des volumes très intéressants du point de vue de l’aménagement des espaces intérieurs et des lieux de vie en commun.</p>
 </div>
 
 
  <div class="row padding">
-   <div class="col s12 m6">
+   <div class="col s12">
      <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
      <table class="bordered centered striped">
             <thead>
@@ -45,15 +46,5 @@ description: Découvrez la Résidence Midelt 2 de Bessa Promotion Immobilière, 
               {% endfor %}
             </tbody>
           </table>
-   </div>
-   <div class="col s12 m6">
-     <div class="owl-carousel owl-theme owl-loaded">
-       {% for item in site.data.images.residences.midelt2.slider %}
-          <div class="item">
-            <img src="{{item.slide}}">
-          </div>
-        {% endfor %}
-     </div>
-
    </div>
  </div>

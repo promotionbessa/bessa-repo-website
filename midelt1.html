@@ -11,8 +11,16 @@ file: midelt1
 update: 25/10/2017
 description: Située à Ouled Fayet, la Résidence Midelt 1 se ditingue par son architecture contemporaine et ses appartements haut standing avec balcons
 ---
-<div class="parallax-container hide-on-med-and-down">
-  <div class="parallax"><img src="{{ site.data.images.residences.midelt1.cover }}"/></div>
+<div class="row">
+  <div class="col s12">
+    <div class="owl-carousel owl-theme owl-loaded">
+      {% for item in site.data.images.residences.midelt1.slider %}
+         <div class="item">
+           <img src="{{item.slide}}">
+         </div>
+       {% endfor %}
+    </div>
+  </div>
 </div>
 <div class="  presentation-residence">
  <p class="justify-align">Avec la résidence Midelt 1 à Ouled Fayet, nous vous proposons de choisir un projet qui est au cœur de nos préoccupations et ambitions : être les précurseurs de l’architecture contemporaine pour l’habitat collectif à Alger.</p>
@@ -23,7 +31,7 @@ description: Située à Ouled Fayet, la Résidence Midelt 1 se ditingue par son 
 
 
  <div class="row padding">
-   <div class="col s12 m6">
+   <div class="col s12">
      <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
      <table class="bordered centered striped">
             <thead>
@@ -41,14 +49,5 @@ description: Située à Ouled Fayet, la Résidence Midelt 1 se ditingue par son 
               {% endfor %}
             </tbody>
           </table>
-   </div>
-   <div class="col s12 m6">
-     <div class="owl-carousel owl-theme owl-loaded">
-       {% for item in site.data.images.residences.midelt1.slider %}
-          <div class="item">
-            <img src="{{item.slide}}">
-          </div>
-        {% endfor %}
-     </div>
    </div>
  </div>
