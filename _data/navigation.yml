@@ -25,9 +25,9 @@ links:
   url: "#"
   id: services
 - title: Carrière
-  url: /recrut
+  url: /recrut.html
 - title: Contact
-  url: /contactez-nous
+  url: /contactez-nous.html
 sublinksaccueil:
 - title: Qui-sommes-nous
   url: /accueil/qui-sommes-nous.html
