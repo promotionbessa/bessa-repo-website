@@ -107,14 +107,12 @@ residences:
   massyles:
     cover: "/img/residence/massyles/cover.jpg"
     slider:
-      - slide: "/img/residence/massyles/vue-exterieure-de-loin.jpg"
+      - slide: "/img/residence/massyles/vue-exterieure-01.jpg"
         alt: "vue exterieure de loin les massyles"
-      - slide: "/img/residence/massyles/vue-exterieure-de-pres.jpg"
+      - slide: "/img/residence/massyles/vue-exterieure-02.jpg"
         alt: "vue exterieure de pres les massyles"
-      - slide: "/img/residence/massyles/vue-exterieure-cote.jpg"
+      - slide: "/img/residence/massyles/vue-exterieure-03.jpg"
         alt: "vue exterieure du cote les massyles"
-      - slide: "/img/residence/massyles/vue-exterieure-etages.jpg"
-        alt: "vue exterieure etages les massyles"
   bellecolline:
     cover: "/img/residence/bellecolline/cover.jpg"
     slider:
