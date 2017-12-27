@@ -1,0 +1,171 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+.landing-page-container
+  max-width: 1100px
+  margin: 0px auto
+  box-shadow: 1px 1px 25px
+  position: relative
+
+
+body,html
+  margin: 0px
+  padding: 0px
+  font-family: 'Roboto'
+body
+.videoPlayer
+  position: absolute
+  background: fade-out(black, 0.4)
+  z-index: 3
+  top: 0px
+  bottom: 0px
+  right: 0px
+  left: 0px
+  display: none
+  .videoplayer-content
+    position: relative
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+    iframe
+      display: block
+      max-width: 800px
+      margin: 0px auto
+      position: relative
+      z-index: 300
+.nav
+  background: white
+  text-align: center
+  width: 100%
+  img
+    padding: 10px
+.main-lp-section
+  background: url('../img/landingpage-imgs/landingpage.jpg')
+  background-position: center
+  background-size: cover
+  min-height: 100vh
+  display: flex
+  justify-content: center
+  color: white
+
+  .droite
+    width: 40%
+    margin-right: 2%
+    min-height: 100vh
+    background: fade-out(black, 0.4)
+    box-shadow: 0.2px 11px 50px black
+  .form-container
+    h1
+      text-align: center
+      margin: 0px
+      font-size: 60px
+      font-weight: bold
+      margin-top: 20px
+
+    span
+      display: block
+      font-size: 26px
+      text-align: center
+    form input , label
+      display: block
+      width: 80%
+      margin: 10px auto
+    input
+      border: 0px
+      height: 35px
+      font-size: 18px
+      border-radius: 5px
+    button
+      border: 0px solid #2ecc71
+      background: #2ecc71
+      color: white
+      display: block
+      padding: 20px 12px
+      width: 80%
+      margin: 40px auto
+      font-size: 20px
+  .gauche
+    width: 60%
+    min-height: 100vh
+    .play
+      color: white
+      font-size: 40px
+      width: 100px
+      display: block
+      margin: 0 auto
+      font-size: 100px
+      cursor: pointer
+
+    .text-shaddow
+      margin: 30px
+      span
+        display: block
+        font-size: 30px
+        text-shadow: 7px 7px 70px black
+        margin-bottom: 5px
+        .check
+          margin-left: 10px
+@media(max-width:600px)
+  .landing-page-container
+    max-width: 1100px
+    margin: 0px auto
+    box-shadow: 1px 1px 25px
+  .main-lp-section
+    background: url('../img/landingpage-imgs/landingpage.jpg')
+    background-position: center
+    background-size: cover
+    background-attachment: fixed
+
+    flex-wrap: wrap
+    justify-content: center
+    color: white
+
+    .droite
+      width: 100%
+      margin-right: 2%
+      height: 100vh
+      background: fade-out(black, 0.4)
+      box-shadow: 0.2px 11px 50px black
+    .form-container
+      h1
+        text-align: center
+        margin: 0px
+        font-size: 60px
+        font-weight: bold
+        margin-top: 20px
+
+      span
+        display: block
+        font-size: 26px
+        text-align: center
+      form input , label
+        display: block
+        width: 80%
+        margin: 10px auto
+      input
+        border: 0px
+        height: 35px
+        font-size: 18px
+        border-radius: 5px
+      button
+        border: 0px solid #2ecc71
+        background: #2ecc71
+        color: white
+        display: block
+        padding: 20px 12px
+        width: 80%
+        margin: 40px auto
+        font-size: 20px
+    .gauche
+      width: 100%
+      .text-shaddow
+        margin: 30px
+        span
+          display: block
+          font-size: 30px
+          text-shadow: 7px 7px 70px black
+          margin-bottom: 5px
+          i
+            margin-left: 10px
