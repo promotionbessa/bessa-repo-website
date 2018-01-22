@@ -43,7 +43,8 @@ sublinksreferences:
   url: /references/irat.html
 - title: Les Sapins 1
   url: /references/sapins-01.html
-
+- title: Les Sapins 2
+  url: /references/sapin-ii.html
 sublinksnouveautes:
 - title: Massiva
   url: /nouveautes/massiva.html
@@ -64,8 +65,7 @@ sublinksprojetsencours:
   url: /projets-en-cours/midelt-02.html
 - title: Midelt 3
   url: /projets-en-cours/midelt-03.html
-- title: Les Sapins 2
-  url: /projets-en-cours/sapin-ii.html
+
 - title: Avancement des travaux
   url: /projets-en-cours/avancement-des-travaux.html
 sublinksecodesign:
