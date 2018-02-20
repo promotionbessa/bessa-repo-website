@@ -93,3 +93,10 @@ sapins2:
   surface: "183 m2"
 - type: F5 Simplex
   surface: "155 m2"
+itri:
+- type: F3 Simplex
+  surface: "100 m2"
+- type: F4 Simplex
+  surface: "115 m2"
+- type: F5 Duplex
+  surface: "132 m2"  

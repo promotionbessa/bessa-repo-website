@@ -104,20 +104,20 @@ main {
       margin-right: 10px; }
 
 .brand-logo img {
-  width: 190px;
+  width: 150px;
   position: relative;
   z-index: 101;
   margin-left: 40px;
   position: absolute;
-  top: 0px; }
+  top: 10px; }
 
 .shape {
   height: 0px;
   width: 0px;
   position: absolute;
   top: 40px;
-  border-left: 120px solid transparent;
-  border-right: 120px solid transparent;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
   border-top: 40px solid white;
   z-index: 100;
   left: 30px;
@@ -190,7 +190,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
 
 .sidebar {
   position: fixed;
-  top: 40vh;
+  top: 30vh;
   right: 0px;
   display: flex;
   height: 300px;
@@ -602,17 +602,26 @@ footer {
   .btn-white:hover {
     background: rgba(255, 255, 255, 0.9); }
 .hero-home{
-  height: 60vh;
+  height: 90vh;
   background: #333;
   background-attachment: fixed !important;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-position: -20px -300px  ;
+  background-position: center  ;
   background-size: cover;
-   h1,h4{
-    // font-weight: 200;
-    color: white !important;
+
+  h1{
+    color: #000;
+    font-weight: 700;
+    color: $bessa-color;
+
+
+  }
+  h4{
+    color: white;
+    font-weight: 300;
+
 
   }
   .chevron{
@@ -633,7 +642,7 @@ footer {
 }
 @media (max-width:600px){
   .hero-home{
-    background-position: left;
+    background-position: center;
     h2 , h4{
       transform: translateY(20px);
       font-weight: 200;
@@ -659,7 +668,7 @@ footer {
    h1{
     color: white  !important;
     padding:  0px 25px 7px 25px;
-    background: rgba(0,0,0,0.5);
+    text-shadow: 5px 4px 25px 10px lightgrey;
 
   }
 
@@ -968,6 +977,14 @@ p{
       margin-left: 10px;
       color: $bessa-color !important;
     }
+  }
+}
+.social-contact{
+  display: flex;
+  justify-content: space-around;
+  i{
+    font-size: 26px !important;
+    color: $bessa-color;
   }
 }
 // helper classes

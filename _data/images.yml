@@ -2,7 +2,7 @@ images:
 blog: blog.jpeg
 logo-v: logo-v.png
 logo-blanc: logo-blanc.png
-hero: "../img/slider/11.jpg"
+hero: "../img/Final.jpg"
 hero-blog: "../img/blog/cover-blog.jpg"
 icon-blog-calendar: "../img/calendar.png"
 references:
@@ -168,4 +168,19 @@ residences:
       - slide: "/img/residence/sapin2/vue-exterieure-02.jpg"
         alt: "vue exterieure sapins2"
       - slide: "/img/residence/sapin2/vue-exterieure-03.jpg"
+        alt: "vue exterieure sapins2"
+  itri:
+    cover: "/img/residence/itri/cover.jpg"
+    slider:
+      - slide: "/img/residence/itri/1.jpg"
+        alt: "vue exterieure sapins2"
+      - slide: "/img/residence/itri/2.jpg"
+        alt: "vue exterieure sapins2"
+      - slide: "/img/residence/itri/3.jpg"
+        alt: "vue exterieure sapins2"
+      - slide: "/img/residence/itri/4.jpg"
+        alt: "vue exterieure sapins2"
+      - slide: "/img/residence/itri/5.jpg"
+        alt: "vue exterieure sapins2"
+      - slide: "/img/residence/itri/6.jpg"
         alt: "vue exterieure sapins2"
