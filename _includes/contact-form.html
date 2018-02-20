@@ -8,13 +8,14 @@
          <div class="row">
            <div class="col s12 m12">
 
-          <form name="contact-general" data-netlify="true" class="contact-general"  >
+          <form name="contact-general" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" class="contact-general"  >
             <div class="row">
               <div class="input-field col s12 m6">
                 <i class="material-icons prefix">account_circle</i>
                 <input  id="first_name" type="text" class="validate" name="Prenom" required>
                 <label for="first_name">Prénom</label>
               </div>
+              <input name="bot-field" style="display:none"></label>
               <div class="input-field col s12 m6">
                 <i class="material-icons prefix">account_circle</i>
                 <input id="last_name" type="text" class="validate active" name="Nom" required>
