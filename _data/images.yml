@@ -3,7 +3,7 @@ blog: blog.jpeg
 logo-v: logo-v.png
 logo-blanc: logo-blanc.png
 hero: "../img/Final.jpg"
-hero-blog: "../img/blog/cover-blog.jpg"
+hero-blog: "../img/blog.jpg"
 icon-blog-calendar: "../img/calendar.png"
 references:
   gaya:
