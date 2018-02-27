@@ -2,8 +2,16 @@
 <html lang="{{ page.lang | default: site.lang | default: "fr" }}">
 
   {% include headlandingpage.html %}
+  {% include head.html %}
 
   <body>
+    <div class="white" >
+    <nav>
+   <div class="nav-wrapper">
+     <a href="#" class="brand-logo "><img src="{{ site.url}}/img/{{site.data.images.logo-v}}" alt="logo bessa"></a>
+
+   </div>
+ </nav>
 
 
 
@@ -11,7 +19,7 @@
 
         {{ content }}
 
-
+</div>
     {% include script.html %}
   </body>
 

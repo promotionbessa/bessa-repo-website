@@ -53,6 +53,8 @@ sublinksnouveautes:
   url: /nouveautes/les-massyles.html
 
 sublinksprojetsencours:
+- title: Itri
+  url: /projets-en-cours/itri.html
 - title: Garden
   url: /projets-en-cours/garden.html
 - title: La Belle Colline
