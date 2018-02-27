@@ -31,7 +31,7 @@
               </div>
             </div>
             <div class="input-field col s12">
-              <select name="devis-pour-{{page.slug}}" required>
+              <select name="devis-pour-{{page.slug}}" required multiple>
                 <option value="" disabled selected>Type de demande</option>
                 {%for residence in site.data.offres[page.offre] %}
                 <option value={{residence.type}}>{{residence.type}}</option>
