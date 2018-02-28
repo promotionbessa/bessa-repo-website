@@ -46,6 +46,8 @@ sublinksreferences:
 - title: Les Sapins 2
   url: /references/sapin-ii.html
 sublinksnouveautes:
+- title: Itri
+  url: /nouveautes/itri.html  
 - title: Massiva
   url: /nouveautes/massiva.html
 
@@ -53,8 +55,7 @@ sublinksnouveautes:
   url: /nouveautes/les-massyles.html
 
 sublinksprojetsencours:
-- title: Itri
-  url: /projets-en-cours/itri.html
+
 - title: Garden
   url: /projets-en-cours/garden.html
 - title: La Belle Colline
