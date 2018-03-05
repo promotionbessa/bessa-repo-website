@@ -1,0 +1,63 @@
+---
+layout: landingpage
+title: Résidence Itri | Appartements haut standing à Ouled Fayet
+slug: Midelt1
+offre: midelt1
+permalink: /midelt1-landing.html
+delivery: 2019
+location: Ouled Fayet
+map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.1185641169004!2d2.944720514674949!3d36.7437250785776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128faffd3a85c70f%3A0x9f17abf078fd8eb6!2sR%C3%A9sidence+Midelt+Bessa+Promotion!5e0!3m2!1sfr!2sdz!4v1508252097514
+update: 25/10/2017
+booking: true
+---
+<div class="center-align white-text">
+    <div class="banner" style="background:linear-gradient(125deg, rgb(255, 255, 255), rgb(243, 243, 243) 41%, rgb(237, 237, 237) 0px, rgb(255, 255, 255">
+       <h1 style="color: black">Résidence {{page.slug}}</h1>
+       <h4 style="color: black">{{page.location}}</h4>
+      </div>
+    </div>
+<div class="row">
+  <div class="col s12">
+    <div class="owl-carousel owl-theme owl-loaded">
+      {% for item in site.data.images.residences.midelt1.slider %}
+         <div class="item">
+           <img src="{{item.slide}}">
+         </div>
+       {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="  presentation-residence" style="background:linear-gradient(125deg, rgb(255, 255, 255), rgb(243, 243, 243) 41%, rgb(237, 237, 237) 0px, rgb(255, 255, 255">
+ <p class="justify-align">Pionniers dans les projets immobiliers de haut standing, l’équipe de Bessa Promotion a le plaisir de vous présenter son tout nouveau projet Itri.</p>
+ <p class="justify-align"> Située en plein cœur de la commune de Ouled Fayet, cette résidence qui surplombe les Grands Vents, donne un accès direct sur l’autoroute Est-Ouest et la rocade Sud, à proximité des écoles, des commerces ainsi que toutes les commodités nécessaires, Son architecture contemporaine se démarque par des lignes épurées et modernes, Entourée d’espaces verts, cette petite résidence saura vous offrir un cadre de vie paisible et agréable, tout en restant proche de la vie trépidante qu’offre la ville.</p>
+</div>
+
+
+ <div class="row padding">
+   <div class="col s12">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.midelt1 %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+ </div>
+ <div class="delivery-date">
+   <h5>Livraison prévue  <span class="bessa-color">{{page.delivery}}</span></h5>
+
+ </div>
+ <div class="container" style="background:linear-gradient(125deg, rgb(255, 255, 255), rgb(243, 243, 243) 41%, rgb(237, 237, 237) 0px, rgb(255, 255, 255">
+   {% include devis.html %}
+ </div>
