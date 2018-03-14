@@ -125,6 +125,8 @@ residences:
   fusion:
     cover: "/img/residence/fusion/cover.jpg"
     slider:
+      - slide: "/img/residence/fusion/1.jpg"
+        alt: "vue exterieure fusion"
       - slide: "/img/residence/fusion/2.jpg"
         alt: "vue exterieure fusion"
       - slide: "/img/residence/fusion/3.jpg"
