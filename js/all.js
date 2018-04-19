@@ -37,6 +37,7 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
            } },
 
     ];
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
     Materialize.scrollFire(options);
     $(".owl-carousel").owlCarousel({
     items: 1,
@@ -124,8 +125,11 @@ $(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
          //  stopPropagation: true // Stops event propagation
         }
       );
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+        setInterval(function(){
+          $('.carousel').carousel('next');
 
-
+        },7000)
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -248,6 +252,7 @@ if( ( $(".value").length ) && wScroll > $(".value").offset().top - ($(window).he
 })
 }
 });
+$('.carousel.carousel-slider').carousel({fullWidth: true});
 
 
  });

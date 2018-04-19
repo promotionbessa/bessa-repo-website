@@ -9,6 +9,31 @@ fusion:
   surface: "153 m2"
 - type: F5 Duplex
   surface: "173 m2"
+pinede:
+- type: F2 Simplex
+  surface: "67 m2"
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F4 Simplex
+  surface: "120 m2"
+- type: F4 Duplex
+  surface: "153 m2"
+- type: F5 Duplex
+  surface: "173 m2"  
+acacia:
+- type: F2 Simplex
+  surface: "67 m2"
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F4 Simplex
+  surface: "120 m2"
+- type: F4 Duplex
+  surface: "153 m2"
+fusion2:
+- type: F3 Simplex
+  surface: "93 m2"
+- type: F4 Simplex
+  surface: "110 m2"
 
 garden:
 - type: F2 Simplex

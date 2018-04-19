@@ -53,9 +53,13 @@ sublinksnouveautes:
 
 - title: Les Massyles
   url: /nouveautes/les-massyles.html
-
+- title: La Pinède
+  url: /nouveautes/pinede.html  
+- title: Fusion 2
+  url: /nouveautes/fusion-2.html    
+- title: Acacia
+  url: /nouveautes/acacia.html   
 sublinksprojetsencours:
-
 - title: Garden
   url: /projets-en-cours/garden.html
 - title: La Belle Colline

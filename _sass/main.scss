@@ -287,8 +287,16 @@ nav .dropdown-content li > a, .dropdown-content li > span {
   animation: fade-in 1s ease-in-out forwards;
   background: $bessa-color;
   width: 100%;
-  padding: 20px; }
-  .banner h2 {
+  padding: 20px; 
+  h1{
+    margin: 0px;
+    font-size: 30px;
+  }
+  h4{
+    font-size: 24px;
+  }
+}
+ h2 {
     margin: 0px;
     font-size: 36px;
     text-shadow: 1px 0px white ;
@@ -407,6 +415,9 @@ video {
     opacity: 0; }
 
 @media (max-width: 600px) {
+  .banner{
+    padding: 40px;
+  }
 
   .quote-media {
     padding: 50px; }
@@ -990,4 +1001,53 @@ p{
 
 .row-reverse{
   flex-direction: row-reverse;
+}
+
+header{
+  // background: url('../img/event/stand.jpg');
+  background: linear-gradient(125deg,#fff,#f3f3f3 41%,#ededed 0,#fff);
+  
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0px;
+  .hero-message{
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+ 
+    
+  }
+  span{
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+  
+}
+
+@media (max-width: 600px) {
+  header{
+    flex-direction: column;
+    .hero-message{
+      margin-top: 60px;
+    }
+  }
+  .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  #counter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+
+    }
+
 }

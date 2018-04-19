@@ -117,6 +117,7 @@ if( ( $(".value").length ) && wScroll > $(".value").offset().top - ($(window).he
 })
 }
 });
+$('.carousel.carousel-slider').carousel({fullWidth: true});
 
 
  });

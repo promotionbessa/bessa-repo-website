@@ -18,6 +18,7 @@
            } },
 
     ];
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
     Materialize.scrollFire(options);
     $(".owl-carousel").owlCarousel({
     items: 1,
@@ -105,7 +106,6 @@ $(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
          //  stopPropagation: true // Stops event propagation
         }
       );
-
-
+     
   }); // end of document ready
 })(jQuery); // end of jQuery name space

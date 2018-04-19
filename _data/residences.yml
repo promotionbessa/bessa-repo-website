@@ -1,4 +1,20 @@
 residences:
+
+- title: Résidence Fusion 2
+  url: /nouveautes/fusion-2.html
+  content: Vivez au rythme de Bessa Promotion et laissez-vous charmer par la résidence Fusion II qui associe modernité et pragmatisme du fait de sa localisation privilégiée à la sortie de Draria, son design contemporain et les diverses commodités dont elle dispose.
+  image: /img/homepage/fusion2.jpg
+  status: new
+- title: Résidence La Pinède
+  url: /nouveautes/pinede.html
+  content: Symbole de la Nouvelle Génération de résidences, La Pinède, émergé à la coquette  de Bou-Ismail, relie l’aspect historique, esthétique et touristique de la wilaya de Tipaza, à l’aspect architectural moderne et ergonomique propre aux résidences Bessa Promotion.
+  image: /img/homepage/pinede.jpg
+  status: new
+- title: Résidence Acacia
+  url: /nouveautes/acacia.html
+  content: Choisissez de devenir propriétaire d'un appartement neuf qui vous correspond, au cœur des hauteurs d’Alger, à Hydra.
+  image: /img/homepage/acacia.jpg
+  status: new  
 - title: Résidence Itri
   url: /nouveautes/itri.html
   content: Pionniers dans les projets immobiliers de haut standing, l’équipe de Bessa Promotion a le plaisir de vous présenter son tout nouveau projet Itri.
@@ -15,7 +31,6 @@ residences:
   content: Située dans un quartier paisible et retiré de Draria, la résidence Fusion a été conçue autour d’un patio, offrant à la fois une luminosité exceptionnelle et un sentiment de convivialité.
   image: /img/homepage/fusion.jpg
   status: encours
-
 
 
 - title: Résidence Midelt 1

@@ -1,0 +1,50 @@
+---
+layout: residence
+title: Résidence Acacia| Appartements haut standing à Draria 
+slug: Acacia
+offre: acacia
+permalink: /nouveautes/acacia.html
+delivery: 2019
+location: Hydra
+map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.2318705373721!2d3.0406455880965906!3d36.7483116987413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb2747487751d%3A0x3d02fba87d5f76fb!2sChez+Ma+Tante!5e0!3m2!1sen!2sdz!4v1524174008854'
+booking: true
+description: Choisissez de devenir propriétaire d'un appartement neuf qui vous correspond, au cœur des hauteurs d’Alger, à Hydra.
+---
+<div class="row">
+  <div class="col s12">
+    <div class="owl-carousel owl-theme owl-loaded">
+      {% for item in site.data.images.residences.acacia.slider %}
+         <div class="item">
+           <img src="{{item.slide}}">
+         </div>
+       {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="  presentation-residence">
+ <p class="justify-align">Choisissez de devenir propriétaire d'un appartement neuf qui vous correspond, au cœur des hauteurs d’Alger, à Hydra.</p>
+ <p class="justify-align"> Hydra est un centre urbain huppé et dynamique de la capitale, qui est prisé pour sa tranquillité et qui notoirement connu pour contenir plusieurs espaces verts et parcs et qui offre à ses habitants beaucoup de tranquillité et d'air pur. </p>
+ <p class="justify-align"> C'est le lieu idéal pour résider ou faire un fructueux investissement locatif. Votre résidence se situe à proximité d'établissements scolaires et à un quart d'heure de l'aéroport et dispose de toutes les commodités et services afin de répondre aux besoins quotidiens des plus exigeants.</p>
+</div>
+
+ <div class="row padding">
+   <div class="col s12">
+     <h4 class="center-align underline--magical-full" style="padding: 10px 0px">Nos offres sur la résidence {{page.slug}}</h4>
+     <table class="bordered centered striped">
+            <thead>
+              <tr>
+                  <th><h6><strong>Type d'appartement</strong></h6></th>
+                  <th><h6><strong>Surface</strong></h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for residence in site.data.offres.fusion2 %}
+              <tr>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.type}}</h6></td>
+                <td style="width: 50%; padding: 5px"><h6>{{residence.surface}}</h6></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+   </div>
+ </div>
