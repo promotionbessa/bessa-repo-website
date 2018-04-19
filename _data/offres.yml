@@ -68,6 +68,18 @@ massiva:
   surface: "148 m2"
 - type: F5 Duplex
   surface: "172 m2"
+massiva2:
+- type: F2 Simplex
+  surface: "70.65m2"
+- type: F3 Simplex
+  surface: "88m2"
+- type: F4 Simplex
+  surface: "109 m2"
+- type: F5 Simplex
+  surface: "148 m2"
+- type: F5 Duplex
+  surface: "172 m2"
+  
 massyles:
 - type: F2 Simplex
   surface: "67 m2"

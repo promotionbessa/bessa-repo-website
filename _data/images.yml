@@ -87,7 +87,6 @@ references:
         alt: "entree residence sapins1"
 residences:
   massiva:
-    cover: "/img/residence/massiva/cover.jpg"
     slider:
       - slide: "/img/residence/massiva/vue-exterieure-01.jpg"
         alt: "vue exterieure esplanade massiva"
@@ -95,8 +94,20 @@ residences:
         alt: "vue exterieure esplanade massiva"
       - slide: "/img/residence/massiva/vue-exterieure-esplanade.jpg"
         alt: "vue exterieure esplanade massiva"
+  massiva2:
+    slider:
+      - slide: "/img/residence/massiva2/1.jpg"
+        alt: "vue exterieure esplanade massiva2"
+      - slide: "/img/residence/massiva2/2.jpg"
+        alt: "vue exterieure esplanade massiva2"
+      - slide: "/img/residence/massiva2/3.jpg"
+        alt: "vue exterieure esplanade massiva2"
+      - slide: "/img/residence/massiva2/4.jpg"
+        alt: "vue exterieure esplanade massiva2"
+      - slide: "/img/residence/massiva2/5.jpg"
+        alt: "vue exterieure esplanade massiva2"                
+
   garden:
-    cover: "/img/residence/garden/cover-03.jpg"
     slider:
       - slide: "/img/residence/garden/vue-exterieure-01.jpg"
         alt: "vue exterieure garden"

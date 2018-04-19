@@ -48,6 +48,11 @@ residences:
   content: Envie de vivre au calme tout en étant proche de tout ? Découvrez la résidence Massiva à Birkhadem, un projet implanté sur un site exceptionnel à quelques dizaines de minutes du centre d’Alger.
   image: /img/homepage/massiva.jpg
   status: new
+- title: Résidence Massiva 2
+  url: /nouveautes/massiva2.html
+  content: Située dans un quartier résidentiel entouré de villas, dans le domaine de Dienane Sfari à Birkhadem. La nouvelle résidence MASSIVA II offre un cadre de vie agréable
+  image: /img/homepage/massiva2.jpg
+  status: new  
 - title: Résidence Midelt 3
   url: /projets-en-cours/midelt-03.html
   content: Laissez-vous charmer par les lignes modernes et les appartements haut standing spacieux de cette magnifique résidence à Ouled Fayet non loin de nos références Gaya et Irat.
