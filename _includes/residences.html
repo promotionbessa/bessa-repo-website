@@ -16,8 +16,8 @@
   {% if item.status == "encours" %}   <span class="badge orange white-text">En Cours</span> {% endif %}
     <div class="card-content">
 
-      <span class="card-title activator grey-text text-darken-2">{{item.title}}<i class="material-icons">more_vert</i></span>
-
+      <span class="card-title activator grey-text text-darken-2">{{item.title}}</span>
+      <h6 class="location-icon"><i class="material-icons red-text text-darken-3">location_on</i>{{item.location}} </h6>
       <p class="center-align"><a href="{{item.url}}"class="btn ">Découvrir</a></p>
     </div>
     <div class="card-reveal">
