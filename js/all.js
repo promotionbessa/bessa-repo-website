@@ -109,6 +109,7 @@ $(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
        $('.preloader').fadeOut();
     });
 
+    $('.modal').modal();
 
   $('.materialboxed').materialbox();
     $('select').material_select();
@@ -125,11 +126,7 @@ $(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
          //  stopPropagation: true // Stops event propagation
         }
       );
-      $('.carousel.carousel-slider').carousel({fullWidth: true});
-        setInterval(function(){
-          $('.carousel').carousel('next');
-
-        },7000)
+     
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 

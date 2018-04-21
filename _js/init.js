@@ -90,6 +90,7 @@ $(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
        $('.preloader').fadeOut();
     });
 
+    $('.modal').modal();
 
   $('.materialboxed').materialbox();
     $('select').material_select();

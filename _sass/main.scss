@@ -1012,6 +1012,9 @@ header{
   justify-content: space-around;
   align-items: center;
   padding: 100px 0px;
+  a{
+    margin: 5px !important;
+  }
   .hero-message{
     max-width: 500px;
     text-align: center;
@@ -1041,13 +1044,6 @@ header{
     flex-direction: column-reverse;
 
   }
-  #counter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 0px;
-
-    }
+  
 
 }
