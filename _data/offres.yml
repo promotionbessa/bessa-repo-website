@@ -77,8 +77,7 @@ massiva2:
   surface: "109 m2"
 - type: F5 Simplex
   surface: "148 m2"
-- type: F5 Duplex
-  surface: "172 m2"
+
   
 massyles:
 - type: F2 Simplex
