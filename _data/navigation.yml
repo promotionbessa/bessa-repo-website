@@ -2,8 +2,6 @@ links:
 - title: Accueil
   url: "#"
   id: accueil
-
-
 - title: Références
   url: "#"
   id: references
@@ -17,10 +15,8 @@ links:
 
 - title: Travaux
   url: /projets-en-cours/avancement-des-travaux.html
-
 - title: Eco-design
   url: "#"
-
 - title: Services
   url: "#"
   id: services

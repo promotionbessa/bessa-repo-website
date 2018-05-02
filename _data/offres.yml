@@ -44,8 +44,6 @@ garden:
   surface: "121 m2"
 - type: F5 Simplex
   surface: "195 m2"
-- type: F6 Duplex
-  surface: "243 m2"
 bellecolline:
 - type: F2 Simplex
   surface: "70 m2"
@@ -77,8 +75,6 @@ massiva2:
   surface: "109 m2"
 - type: F5 Simplex
   surface: "148 m2"
-
-  
 massyles:
 - type: F2 Simplex
   surface: "67 m2"
