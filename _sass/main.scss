@@ -613,46 +613,19 @@ footer {
   .btn-white:hover {
     background: rgba(255, 255, 255, 0.9); }
 .hero-home{
-  height: 90vh;
+  height: 70vh;
   background: #333;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-position: center  ;
+  background-position: left  ;
   background-size: cover;
 
-  h1{
-    color: #000;
-    font-weight: 700;
-    color: $bessa-color;
-
-
-  }
-  h4{
-    color: white;
-    font-weight: 300;
-
-
-  }
-  .chevron{
-
-    color: white !important;
-    font-size: 28px;
-    border-radius: 100%;
-    padding: 8px;
-    display: inline-block;
-    animation: arrow 3000ms ease-in-out infinite;
-
-
-  }
-  .main-cta{
-    margin-left: 50px;
-
-  }
 }
 @media (max-width:600px){
   .hero-home{
-    background-position: center;
+    height: 30vh;
+    background-position: left;
     h2 , h4{
       transform: translateY(20px);
       font-weight: 200;
