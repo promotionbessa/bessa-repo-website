@@ -133,6 +133,12 @@ residences:
         alt: "vue exterieure bellecolline"
       - slide: "/img/residence/bellecolline/vue-exterieure-03.jpg"
         alt: "vue exterieure bellecolline"
+      - slide: "/img/residence/bellecolline/piscine-01.jpg"
+        alt: "vue piscine bellecolline"
+      - slide: "/img/residence/bellecolline/piscine-02.jpg"
+        alt: "vue piscine bellecolline"
+      - slide: "/img/residence/bellecolline/piscine-03.jpg"
+        alt: "vue piscine bellecolline"
   pinede:
     slider:
       - slide: "/img/residence/pinede/1.jpg"
