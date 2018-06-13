@@ -6,8 +6,14 @@ layout: default
   <div class="col s12 m8">
 
     <h4 class="bessa-color blog-header">{{page.title}}</h4>
-
+    {% if page.picture %}
     <img src="{{ page.picture | relative_url }}" class="responsive-img" alt="">
+    {% endif %}
+    {% if page.video %}
+    <div class="video-container">
+      <iframe width="560" height="315" src={{page.video}} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+     </div>
+          {% endif %}
     {{ content }}
     <div class="chip">
         <img src="{{ site.data.images.icon-blog-calendar | relative_url }}"/>

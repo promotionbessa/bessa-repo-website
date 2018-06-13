@@ -11,7 +11,7 @@ redirect_from: [/en/news,/fr/9-uncategorised/101-typography,/fr/videos,/fr/oree,
 
             <div class="card-panel white avatar hoverable">
               <h4 class="bessa-color blog-header"><a href="{{ post.url | relative_url }}" class="center-align">{{post.title}}</a></h4>
-              <img src="{{ post.picture | relative_url }}" class="responsive-img" alt="">
+              <img src="{{ post.thumb | relative_url }}" class="responsive-img" alt="">
               <div class="justify-align">{{post.content | truncatewords: 30 }}</div>
               <a href="{{ post.url | relative_url }}" class="bessa-color">Lire plus</a>
             </div>
