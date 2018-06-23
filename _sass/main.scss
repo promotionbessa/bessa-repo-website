@@ -275,7 +275,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
 }
  h2 {
     margin: 0px;
-    font-size: 36px;
+    font-size: 46px;
     text-shadow: 1px 0px white ;
     font-weight: 200;
     letter-spacing: 2px;
@@ -970,6 +970,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
     h5{
       font-size: 0.8rem;
