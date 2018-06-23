@@ -2,7 +2,7 @@
 layout: singlepost
 title: Batimatec l'incontournable evenement
 description: 'salon de la batimatec 2018 '
-picture: /img/uploads/img_6710.jpg
+picture: /img/uploads/batimatec.jpg
 thumb: /img/blog/batimatec.jpg
 comments: true
 ---
