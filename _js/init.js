@@ -18,7 +18,6 @@
            } },
 
     ];
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
     Materialize.scrollFire(options);
     $(".owl-carousel").owlCarousel({
     items: 1,
@@ -33,7 +32,6 @@
     animateIn: true,
     animateOut: "fadeOut"
   });
-
   function getCaption(){
       if ($(".bellecolline").length ) {
         var captionbellecolline = $(".bellecolline .owl-item.active .item").children();

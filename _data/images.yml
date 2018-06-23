@@ -1,6 +1,6 @@
 images:
 blog: blog.jpeg
-logo-v: logo-vertical.png
+logo-v: logo.svg
 logo-blanc: logo-blanc.png
 hero: "../img/slider/aid.jpg"
 hero-blog: "../img/blog.jpg"
@@ -253,3 +253,10 @@ residences:
         alt: "vue exterieure itri"
       - slide: "/img/residence/itri/7.jpg"
         alt: "vue exterieure itri"
+slider:
+ - slide: "/img/residence/itri/1.jpg"
+   title: "come soon"
+   cta: "/accueil/blog"
+ - slide: "/img/residence/itri/2.jpg"
+   title: "come"
+   cta: "/nouveautes/acacia.html"

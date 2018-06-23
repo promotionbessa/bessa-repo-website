@@ -5,25 +5,22 @@ redirect_from: [/en/news,/fr/9-uncategorised/101-typography,/fr/videos,/fr/oree,
 ---
 
     <section class="blog">
-            <div class="row" style="padding: 0px 20px">
-              <div class="col s12 m8">
+      <div class="hero-blog">
+        <h2>Blog de Bessa Promotion</h2>
+          <h5 class="grey-text text-darken-2">Inscrivez-vous à notre liste pour recevoir régulièrement nos offres</h5>
+          {% include newsletter-helper.html %}
+        </div>
+        <div class="scroll-blog">
             {% for post in site.posts %}
-
-            <div class="card-panel white avatar hoverable">
-              <h4 class="bessa-color blog-header"><a href="{{ post.url | relative_url }}" class="center-align">{{post.title}}</a></h4>
-              <img src="{{ post.thumb | relative_url }}" class="responsive-img" alt="">
+         <div class="blog-article">
+              <a href="{{ post.url | relative_url }}">
+              <h4>{{post.title}}</h4>
               <div class="justify-align">{{post.content | truncatewords: 30 }}</div>
-              <a href="{{ post.url | relative_url }}" class="bessa-color">Lire plus</a>
+              </a>
             </div>
-
-
             {% endfor %}
             </div>
-            <div class="col s12 m4">
-              {% include newsletter-blog.html %}
-              <div class="margin">
-              {% include social-media-blog.html %}
-              </div>
-            </div>
+
+            
           </div>
         </section>

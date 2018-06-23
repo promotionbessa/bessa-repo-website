@@ -37,7 +37,6 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
            } },
 
     ];
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
     Materialize.scrollFire(options);
     $(".owl-carousel").owlCarousel({
     items: 1,
@@ -52,7 +51,6 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
     animateIn: true,
     animateOut: "fadeOut"
   });
-
   function getCaption(){
       if ($(".bellecolline").length ) {
         var captionbellecolline = $(".bellecolline .owl-item.active .item").children();
@@ -190,8 +188,11 @@ function checkSidebarOpen(){
 var $containerWidth= $(".bg-bessa").width();
 var $footerHeight= $("footer").outerHeight();
 var $nav = $(".navbar-fixed nav");
+var $main =$('main');
+var $navHeight= $nav.height();
 
 $( window ).resize(function() {
+  $navHeight= $nav.outerHeight()
    $containerWidth= $(".bg-bessa").width();
    $footerHeight= $("footer").outerHeight();
    setFooter();
@@ -199,6 +200,8 @@ $( window ).resize(function() {
 });
 function setNavbar(){
   $nav.css("width",$containerWidth)
+  $main.css('marginTop,$navHeight');
+  console.log($navHeight,$main)
 }
 function setFooter(){
   $("footer").css("width",$containerWidth);
@@ -252,7 +255,6 @@ if( ( $(".value").length ) && wScroll > $(".value").offset().top - ($(window).he
 })
 }
 });
-$('.carousel.carousel-slider').carousel({fullWidth: true});
 
 
  });
