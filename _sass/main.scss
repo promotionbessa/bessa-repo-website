@@ -272,7 +272,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
   h4{
     font-size: 24px;
   }
-}
+
  h2 {
     margin: 0px;
     font-size: 46px;
@@ -282,6 +282,7 @@ nav .dropdown-content li > a, .dropdown-content li > span {
     font-variant: small-caps;
     animation: fade-in 1s 1s ease-in forwards;
     opacity: 0; }
+  }
 
 @keyframes fade-in {
   0% {
@@ -1018,6 +1019,8 @@ p{
 }
 .single-post h2{
   font-weight: 500;
-  font-size: 28px;
+  letter-spacing: 0px;
+  font-size: 20px;
   font-style: normal;
+  font-variant: inherit;
 }
