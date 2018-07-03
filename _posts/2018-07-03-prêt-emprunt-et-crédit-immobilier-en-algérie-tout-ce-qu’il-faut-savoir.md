@@ -1,6 +1,6 @@
 ---
 layout: singlepost
-title: 'Prêt, emprunt et crédit immobilier en Algérie  Tout ce qu’il faut savoir'
+title: 'Prêt, emprunt et crédit immobilier en Algérie : Tout ce qu’il faut savoir'
 description: ' les conditions d''obtention d''un crédit immobilier en Algérie tout ce qu''il faut savoir, dossier bancaire à fournir  '
 picture: /img/uploads/courtier-immo-1024x686.jpg
 thumb: /img/uploads/courtier-immo-1024x686.jpg
