@@ -8,11 +8,11 @@ comments: true
 ---
 Pour l’achat d’une maison, il est courant de faire appel à un crédit immobilier. Mais pour choisir le type d’emprunt qui vous correspond, il est primordial de vous renseigner au préalable. Beaucoup de personnes confondent crédit avec arnaque ou ont peur de s’endetter durant plusieurs années.  Malheureusement a moins d’avoir hérité d’une grosse somme d’argent ou gagner au loto, très peu de gens peuvent acquérir un logement sans emprunter une somme d’argent. Aujourd’hui plus que jamais, les taux de crédits immobilier vont être intéressants et permettent facilement de devenir propriétaire de votre logement. 
 
-## 
 
-## Comment monter votre dossier de prêts immobiliers ? 
 
-  Pour répondre à ces questions, nous avons fait appel à monsieur Ali Benarbia, directeur général adjoint chez Bessa promotion. Ayant plus de 30 ans d’expérience dans le domaine de l’immobilier, M.Benarbia précise qu’il y’a deux type de crédits immobilier. Le crédit paramètre qui dépend des capacités de remboursement des ménages et leur âge et le crédit à taux bonifié un à 1 % pour les fonctionnaires de 60 ans et moins. Ces prêts sont octroyés par le Trésor publique pour l’acquisition, la construction ou l’extension du logement. La demande de crédit est adressée à la Direction Générale du Trésor.
+## Comment monter votre dossier de prêts immobiliers ?
+
+Pour répondre à ces questions, nous avons fait appel à monsieur Ali Benarbia, directeur général adjoint chez Bessa promotion. Ayant plus de 30 ans d’expérience dans le domaine de l’immobilier, M.Benarbia précise qu’il y’a deux type de crédits immobilier. Le crédit paramètre qui dépend des capacités de remboursement des ménages et leur âge et le crédit à taux bonifié un à 1 % pour les fonctionnaires de 60 ans et moins. Ces prêts sont octroyés par le Trésor publique pour l’acquisition, la construction ou l’extension du logement. La demande de crédit est adressée à la Direction Générale du Trésor.
 
 ## Conditions d’éligibilité
 
