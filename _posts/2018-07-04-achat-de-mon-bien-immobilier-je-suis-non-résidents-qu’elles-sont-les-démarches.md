@@ -3,9 +3,7 @@ layout: singlepost
 title: >-
   Achat de mon bien immobilier : Je suis non-résidents qu’elles sont les
   démarches ? 
-description: >-
-  les les démarches pour acheter un logement en Algérie résident étranger,
-  crédit immobilier pour les immigrés algériens
+description: ' les démarches pour acheter un logement en Algérie résident étranger, crédit immobilier pour les immigrés algériens'
 picture: /img/uploads/image.jpg
 comments: true
 ---
