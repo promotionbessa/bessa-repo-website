@@ -7,6 +7,7 @@ nav{
   background: white;
 }
 .container{
+  position: relative;
   color: black;
 }
 strong{
@@ -63,4 +64,25 @@ strong{
 }
 .btn{
   background:#c40d1e
+}
+.form{
+  padding: 40px;
+}
+.ameneties{
+  max-width: 800px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  flex-wrap: wrap;
+ 
+  i{
+    color: #c40d1e;
+  }
+  span{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 4px;
+  }
 }
