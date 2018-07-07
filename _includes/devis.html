@@ -1,6 +1,6 @@
 
 
-        <div class="contact-us center-align col s12 m12 hoverable">
+        <div class="contact-us center-align col s12 m12">
         <div class="header-show">
         <h3 class="center-align"><span class="underline--magical-full">Demander un devis pour la residence {{page.slug}}</span></h3>
         <div class="underline"></div>
@@ -38,7 +38,7 @@
               </div>
             </div>
             <div class="input-field col s12">
-              <select name="devis-pour-{{page.slug}}" required multiple>
+              <select name="devis-pour-{{page.slug}}" required>
                 <option value="" disabled selected>Type de demande</option>
                 {%for residence in site.data.offres[page.offre] %}
                 <option value={{residence.type}}>{{residence.type}}</option>

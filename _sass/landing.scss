@@ -1,130 +1,66 @@
 @import "materialize/materialize";
 body{
-  // -webkit-font-smoothing: antialiased;
-
+  color: #000;
+  font-family: sans-serif;
 }
- 
-  header{
-    // background: url('../img/event/stand.jpg');
-    background: linear-gradient(125deg,#fff,#f3f3f3 41%,#ededed 0,#fff);
-    
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 0px;
-    .hero-message{
-      max-width: 500px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center
-   
-      
+nav{
+  background: white;
+}
+.container{
+  color: black;
+}
+strong{
+  color:#c40d1e;
+}
+.features{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  .description{
+    background: #0984e3;
+    color: white;
+    padding: 20px;
+    h3{
+      font-size: 24px;
     }
-    span{
-      font-size: 42px;
-      font-weight: 700;
-    }
-    
-    
   }
-
-  @media (max-width: 600px) {
-    header{
-      flex-direction: column;
-      .hero-message{
-        margin-top: 60px;
-      }
+  .feature{
+    h4{
+      font-size:24px;
+      color:#c40d1e;
+      font-weight: bold;
     }
-    .reverse{
-      display: flex;
-      flex-direction: column-reverse;
+    h4,p{
+      padding: 12px;
+    }
+    img{
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
 
     }
-    #counter{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      padding: 100px 0px;
-  
-      }
-
-}
-
-  .batimatec{
-    font-weight: 100;
-    font-size: 24px;
-  }
-.residence{
-  h1{
-    font-weight: 400;
-    font-size: 30px;
-    color: #c40d1e;
-  }
-  h6{
-    font-weight: 100;
-    color: #c40d1e;
-  }
-  p{
-    font-size: 24px;
-    padding: 0px 40px;
-
   }
 }
-p{
-  font-weight: 100;
+.parallax-container .parallax img{
+  display: block;
 }
-.title{
-  text-align: center;
-  margin: 100px 0px;
-  h2{
-    font-weight: 700;
-    margin: 0px;
-    color: #c40d1e;
-  }
-
+.parallax-container .parallax h1{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    top: 50%;
+    z-index: 101;
+    transform: translateY(-50%)
 }
-
-#counter{
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 100px 0px;
-.stat{
-  background: #c40d1e;
-  color: white;
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  transition: 300ms ease-in-out;
-  .counter-value{
-    font-size: 30px;
-  }
-  &:hover{
-    transform: translateY(-5px);
-    box-shadow: 10px 1px 25px lightgrey;
-
-  }
+.parallax-container {
+  height: 85vh;
 }
+.logo{
+  position: absolute;
+  width: 300px;
+  z-index: 100;
+  right: 10px;
 }
-
-@keyframes pulse {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.animate{
-  animation: pulse  1000ms ease-in-out;
+.btn{
+  background:#c40d1e
 }

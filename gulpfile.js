@@ -7,8 +7,8 @@ gulp.task('scripts', function() {
 });
 gulp.task('default', ['scripts']);
 
-gulp.task('scriptslanding', function() {
-  return gulp.src(['./_js/jquery.min.js', './_js/materialize.min.js', './_js/count.js', './_js/landing.js'])
+gulp.task('landing', function() {
+  return gulp.src(['./_js/landing.js'])
     .pipe(concat('landing.js'))
     .pipe(gulp.dest('./js/'));
 });
