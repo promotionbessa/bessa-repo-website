@@ -2,19 +2,22 @@
 layout: default
 
 ---
-<div class="row padding single-post">
+<article class="row padding single-post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="col s12 m8">
 
-    <h4 class="blog-header">{{page.title}}</h4>
+    <h4 class="blog-header" itemprop="name">{{page.title}}</h4>
+    {% include social-sharing.html %}
     {% if page.picture %}
-    <img src="{{ page.picture | relative_url }}" class="responsive-img" alt="">
+    <img itemprop="image" src="{{ page.picture | relative_url }}" class="responsive-img" alt="">
     {% endif %}
     {% if page.video %}
     <div class="video-container">
       <iframe width="560" height="315" src={{page.video}} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
      </div>
           {% endif %}
-    {{ content }}
+          <div  itemprop="articleBody">
+            {{ content }}
+        </div>
     <div class="chip">
         <img src="{{ site.data.images.icon-blog-calendar | relative_url }}"/>
         Publié le :
@@ -47,4 +50,4 @@ layout: default
 
 
 </div>
-</div>
+</article>
