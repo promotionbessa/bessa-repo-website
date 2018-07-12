@@ -154,17 +154,8 @@ residences:
       - slide: "/img/residence/pinede/6.jpg"
         alt: "vue exterieure pinede"
       - slide: "/img/residence/pinede/7.jpg"
-        alt: "vue exterieure pinede"    
-      - slide: "/img/landingpage-imgs/creche.jpg"
-        alt: "vue exterieure pinede"    
-      - slide: "/img/landingpage-imgs/detente.jpg"
-        alt: "vue exterieure pinede"  
-      - slide: "/img/landingpage-imgs/muscu.jpg"
-        alt: "vue exterieure pinede"   
-      - slide: "/img/landingpage-imgs/piscine.jpg"
-        alt: "vue exterieure pinede"   
-      - slide: "/img/landingpage-imgs/sauna.jpg"
-        alt: "vue exterieure pinede"                            
+        alt: "vue exterieure pinede"            
+                                
   acacia:
     slider:
       - slide: "/img/residence/acacia/1.jpg"
