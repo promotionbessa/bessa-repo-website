@@ -52,6 +52,7 @@
         left: 15%;
         width: 70%;
         opacity: 0;
+        
 
         p { color: $slider-bg-color-light; }
       }
@@ -61,7 +62,6 @@
       }
     }
   }
-
 
   .indicators {
     position: absolute;

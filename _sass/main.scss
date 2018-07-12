@@ -929,6 +929,9 @@ p{
 
 .hero{
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  // background: url('../img/landingpage-imgs/detente.jpg');
+  background-size: cover;
+  background-position: center;
   height: 60vh;
   display:flex;
   justify-content: center;

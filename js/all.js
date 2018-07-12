@@ -181,7 +181,10 @@ function checkSidebarOpen(){
 
 
 
-  //  $('.slider').slider();
+   $('.slider').slider({
+     height: 600,
+     indicators: false
+   });
 
 
 // scrolling configuration ? get the dimensions of te footer and container
