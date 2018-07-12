@@ -177,8 +177,15 @@ function checkSidebarOpen(){
 }
 
   $(".sidbar-trigger").on("click",sidebarToggler)
+$('#play-right').click(function(){
+  $('.slider').slider('next');
 
 
+})
+$('#play-left').click(function(){
+  $('.slider').slider('prev');
+
+})
 
 
    $('.slider').slider({

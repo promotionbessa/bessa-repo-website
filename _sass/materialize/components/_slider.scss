@@ -90,3 +90,18 @@
   }
 
 }
+.controls{
+  position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    i{
+      padding: 6px;
+      color: black;
+      background: white;
+      border-radius: 50%;
+      font-size: 24px;
+    }
+}
