@@ -12,14 +12,12 @@ links:
 - title: Projets en cours
   url: "#"
   id: projets-en-cours
-
-- title: Travaux
-  url: /projets-en-cours/avancement-des-travaux.html
-- title: Eco-design
-  url: "#"
 - title: Services
   url: "#"
   id: services
+- title: Confort
+  url: /eco-design/confort.html
+  
 - title: Carrière
   url: /recrut.html
 - title: Contact
@@ -44,11 +42,6 @@ sublinksreferences:
 sublinksnouveautes:
 - title: Itri
   url: /nouveautes/itri.html  
-- title: Massiva
-  url: /nouveautes/massiva.html
-
-- title: Les Massyles
-  url: /nouveautes/les-massyles.html
 - title: La Pinède
   url: /nouveautes/pinede.html  
 - title: Fusion 2
@@ -70,16 +63,12 @@ sublinksprojetsencours:
   url: /projets-en-cours/midelt-02.html
 - title: Midelt 3
   url: /projets-en-cours/midelt-03.html
-
+- title: Massiva
+  url: /projets-en-cours/massiva.html
+- title: Les Massyles
+  url: /projets-en-cours/les-massyles.html
 - title: Avancement des travaux
   url: /projets-en-cours/avancement-des-travaux.html
-sublinksecodesign:
-- title: Environnement
-  url: /eco-design/environnement.html
-- title: Confort
-  url: /eco-design/confort.html
-- title: Sécurité
-  url: /eco-design/securite.html
 sublinksservice:
 - title: Nos engagements
   url: /nos-services/engagements.html

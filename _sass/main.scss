@@ -342,17 +342,10 @@ video {
       width: 100%; }
       .main-reference .presentaion-image img {
         box-shadow: 2px 2px 5px black; } }
-
-.cd {
-  transition: 300ms ease-in-out;
-  opacity: 0;
-  transform: translateY(-50px); }
-
 .card-reveal span.card-title {
   color: $bessa-color !important;
 
 }
-
 .justify-align {
   text-align: justify; }
 
@@ -657,13 +650,6 @@ footer {
   box-shadow: 2px 2px 25px #d4d4db;
   background: #fdfdfd;
 }
-.span.badge.new{
-  position: absolute !important;
-  top: 100px;
-  left: 0px;
-}
-
-
 
   // eco-design
 
@@ -1126,4 +1112,12 @@ p{
 
 
 
+}
+.effect{
+  position: relative;
+  top: -110px;
+  z-index: 10;
+}
+.slier{
+  height: 400px;
 }
