@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include preloader.html %}
+
+
+    <div class="container bg-bessa">
+
+        {% include header.html %}
+
+
+        {{ content }}
+
+</div>
+
+    {% include script.html %}
+
+    {% include livechat.html %}
+
+  </body>
+
+</html>
