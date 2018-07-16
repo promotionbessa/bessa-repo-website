@@ -22,13 +22,14 @@ links:
   url: /recrut.html
 - title: Contact
   url: /contactez-nous.html
+- title: Blog
+  url: /accueil/blog.html  
 sublinksaccueil:
 - title: Qui-sommes-nous
   url: /accueil/qui-sommes-nous.html
 - title: Lettre du Directeur
   url: /accueil/letter.html
-- title: Blog
-  url: /accueil/blog.html
+
 
 sublinksreferences:
 - title: Gaya
