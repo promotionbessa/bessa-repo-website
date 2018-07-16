@@ -7,8 +7,12 @@
     <a href="#" data-activates="mobile-demo" class="button-collapse show-on-med"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       {% for item in site.data.navigation.links %}
-
+      {% if page.url == item.url %}
+      <li><a href="{{item.url}}" alt="{{ item.title }}" class="dropdown-button active-class" {% if item.id %}data-activates="{{item.id }}"{% else %}data-activates="{{item.title }}"{% endif %}>{{ item.title }}</a></li>
+      {% else %}
       <li><a href="{{item.url}}" alt="{{ item.title }}" class="dropdown-button" {% if item.id %}data-activates="{{item.id }}"{% else %}data-activates="{{item.title }}"{% endif %}>{{ item.title }}</a></li>
+      {% else %}
+      {% endif %}
 
       {% endfor %}
 
