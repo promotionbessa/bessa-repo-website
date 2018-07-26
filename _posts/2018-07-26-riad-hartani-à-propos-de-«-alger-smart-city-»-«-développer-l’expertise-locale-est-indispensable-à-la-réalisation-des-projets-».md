@@ -7,7 +7,7 @@ description: 'Alger smart city, ville intelligente,numérisation des communes'
 picture: /img/uploads/552e78e90341f.jpg
 comments: true
 ---
-Le concept « ville intelligente » suscite beaucoup d’enthousiasme à l’heure actuelle, mais il ne faut pas perdre de vue qu’il s’agit seulement d’atteindre le but suivant : faciliter la vie dans nos villes et les rendre plus humaines. Nous avons donné la parole à [Riad Hartani](http://blogs.worldbank.org/arabvoices/fr/profiles-diaspora-riad-hartani) docteur en intelligence artificielle, dirigeant d’une chaîne de startups à la Silicon Valley aux USA et consultant sur le projet « Alger, Smart City ». M.Hartani est revenus sur les grandes lignes de cet important projet pour la capitale.
+Le concept « ville intelligente » suscite beaucoup d’enthousiasme à l’heure actuelle, mais il ne faut pas perdre de vue qu’il s’agit seulement d’atteindre le but suivant : faciliter la vie dans nos villes et les rendre plus humaines. Nous avons donné la parole à[ Riad Hartani](http://blogs.worldbank.org/arabvoices/fr/profiles-diaspora-riad-hartani) docteur en intelligence artificielle, dirigeant d’une chaîne de startups à la Silicon Valley aux USA et consultant sur le projet « Alger, Smart City ». M.Hartani est revenus sur les grandes lignes de cet important projet pour la capitale.
 
 ## Qu’entendez-vous par ville intelligente ?
 
@@ -19,13 +19,12 @@ On est au début, en ce qui concerne la valorisation des technologies d’inform
 
 ## Comment procédez-vous ?
 
-
 L’approche est simple : Choisir les technologies à mettre en place qui ont le plus d’impact possible, et ensuite mettre en place un modèle de développement d’expertise pour les mettre en œuvre. Le but est d’arriver à développer une expertise locale en technologies avancées et bien ciblées.
 
 Quels sont les projets qui ont été retenus ?
 De très nombreux projets sont en cours. Il faut aussi les voir comme évolution de projets existants que de nouveaux projets, avec une insertion de nouveaux modelés d’exécution. L’expertise développée est transversale et s’applique à un grand nombre de projets. Le but est principalement de développer cette expertise.
 
-## Ce projet va rendre la capitale une ville digitale. Comment allez-vous vous y prendre sur le terrain ? 
+## Ce projet va rendre la capitale une ville digitale. Comment allez-vous vous y prendre sur le terrain ?
 
 Le concept de ville digitale n’est pas un concept de zéro (non digitale) et (digitale). C’est une progression qui s’étale sur le temps. Le plus important sur le terrain est de faire les bons choix d’exécution et de maintenir cela sur une très longue durée. En dizaine d’années. Ce n’est qu’un bon début, mais le plus important est de le faire sur le long terme.
 
