@@ -7,7 +7,7 @@ description: 'Alger smart city, ville intelligente,numérisation des communes'
 picture: /img/uploads/552e78e90341f.jpg
 comments: true
 ---
-Le concept « ville intelligente » suscite beaucoup d’enthousiasme à l’heure actuelle, mais il ne faut pas perdre de vue qu’il s’agit seulement d’atteindre le but suivant : faciliter la vie dans nos villes et les rendre plus humaines. Nous avons donné la parole à [Riad Hartani] (http://blogs.worldbank.org/arabvoices/fr/profiles-diaspora-riad-hartani) , docteur en intelligence artificielle, dirigeant d’une chaîne de startups à la Silicon Valley aux USA et consultant sur le projet « Alger, Smart City ». M.Hartani est revenus sur les grandes lignes de cet important projet pour la capitale.
+Le concept « ville intelligente » suscite beaucoup d’enthousiasme à l’heure actuelle, mais il ne faut pas perdre de vue qu’il s’agit seulement d’atteindre le but suivant : faciliter la vie dans nos villes et les rendre plus humaines. Nous avons donné la parole à [Riad Hartani] (http://blogs.worldbank.org/arabvoices/fr/profiles-diaspora-riad-hartani) docteur en intelligence artificielle, dirigeant d’une chaîne de startups à la Silicon Valley aux USA et consultant sur le projet « Alger, Smart City ». M.Hartani est revenus sur les grandes lignes de cet important projet pour la capitale.
 
 ## Qu’entendez-vous par ville intelligente ?
 
