@@ -13,7 +13,7 @@ Le concept « ville intelligente » suscite beaucoup d’enthousiasme à l’heu
 
 Il y a bien sur la définition classique « optimiser la qualité de vie dans la ville à travers l’utilisation des nouvelles technologies, et technologies d’information en particulier ». Cela dit, pour le cas d’Alger, le projet ville intelligente est plus une histoire de définir un projet fédérateur qui agit comme catalyseur pour l’émergence d’un écosystème technologique avancé. En fait, pour Alger, le projet ville intelligente est plus un moyen qu’un but pour accélérer le développement.
 
-## Ou en est actuellement la ville d’Alger en terme de politique urbaine intelligentes ?
+## Ou en est actuellement la ville d’Alger en terme de politique urbaine intelligente ?
 
 On est au début, en ce qui concerne la valorisation des technologies d’informations. D’une certaine manière, ceci peut être vu comme une chance unique, car ça nous donne le choix de quoi faire et comment faire, en utilisant une nouvelle vague de technologies très modernes, qui rendent la passe un peu obsolète
 
