@@ -35,4 +35,4 @@ L’architecture contemporaine s’introduit timidement dans l’urbanisme algé
 
 ...
 
-Certaines résidences de Bessa promotion, notamment la résidence « Midelt1 » qui est en cours de construction dans localité de ouled fayet. Il y’a aussi la tour du groupe industriel Schneider basée à Cheraga.  On peut également citer la faculté de droit de Said Hamdine avec ses grandes façades vitrées, la grande mosquée d’Alger et le grand opéra d’Alger.
+Certaines résidences de Bessa promotion, notamment la résidence « Midelt1 » qui est en cours de construction dans la localité de ouled fayet. Il y’a aussi la tour du groupe industriel Schneider basée à Cheraga.  On peut également citer la faculté de droit de Said Hamdine avec ses grandes façades vitrées, la grande mosquée d’Alger et le grand opéra d’Alger.
