@@ -913,10 +913,9 @@ p{
 }
 
 .hero{
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
-  // background: url('../img/landingpage-imgs/detente.jpg');
-  background-size: cover;
-  background-position: center;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 60vh;
   display:flex;
   justify-content: center;
@@ -927,6 +926,7 @@ p{
     background: #c40d1e;
     color: #ffffff;
     padding: 8px 12px;
+    margin: 5px;
     transition: 300ms ease-in-out;
     &:hover{
       background: transparent;
@@ -936,8 +936,11 @@ p{
     }
   }
   h1{
-    padding: 14px;
-    color: #ffffff;
+    
+    font-size: 72px;
+    color: white;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
   }
 }
 
