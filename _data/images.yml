@@ -217,11 +217,13 @@ residences:
   sapin2:
     cover: "/img/residence/sapin2/cover.jpg"
     slider:
-      - slide: "/img/residence/sapin2/vue-exterieure-01.jpg"
+      - slide: "/img/residence/sapin2/1.jpg"
         alt: "vue exterieure sapins2"
-      - slide: "/img/residence/sapin2/vue-exterieure-02.jpg"
+      - slide: "/img/residence/sapin2/2.jpg"
         alt: "vue exterieure sapins2"
-      - slide: "/img/residence/sapin2/vue-exterieure-03.jpg"
+      - slide: "/img/residence/sapin2/3.jpg"
+        alt: "vue exterieure sapins2"
+      - slide: "/img/residence/sapin2/4.jpg"
         alt: "vue exterieure sapins2"
   itri:
     cover: "/img/residence/itri/cover.jpg"
