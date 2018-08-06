@@ -108,6 +108,13 @@ $(".owl-carousel.smart").on('changed.owl.carousel', function(event) {
          //  stopPropagation: true // Stops event propagation
         }
       );
+   
+        $('.owl-item .item img').css({
+          "height": "500px",
+          "objectFit": "cover"
+        })
+      
+     
      
   }); // end of document ready
 })(jQuery); // end of jQuery name space
