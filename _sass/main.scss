@@ -991,19 +991,26 @@ p{
     -webkit-transition: 250ms cubic-bezier(0.4,0,0.2,1),-webkit-transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
     -webkit-transition: 250ms cubic-bezier(0.4,0,0.2,1),transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
     transition: 250ms cubic-bezier(0.4,0,0.2,1),transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
+    &:hover{
+      background: #c40d1e;
+      box-shadow: 0 10px 42px rgba(25,17,34,0.1);
+     -webkit-transform: translateY(-4px);
+     -ms-transform: translateY(-4px);
+     transform: translateY(-4px);
+      color: white;
+      h4{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+      }
+    }
     h4{
       font-size: 28px;
       color: $bessa-color;
       font-weight: bold;
     }
     }
-    &:hover{
-      box-shadow: 0 10px 42px rgba(25,17,34,0.1);
-     -webkit-transform: translateY(-4px);
-     -ms-transform: translateY(-4px);
-     transform: translateY(-4px);
-      color: rgba(25,17,34,0.5);
-    }
+ 
 
   }
 }
