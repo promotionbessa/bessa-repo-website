@@ -8,8 +8,7 @@ redirect_from: [/en/news,/fr/9-uncategorised/101-typography,/fr/videos,/fr/oree,
     <section class="blog">
       <div class="hero-blog">
         <h2>Blog de Bessa Promotion</h2>
-          <h5 class="grey-text text-darken-2">Inscrivez-vous à notre liste pour recevoir régulièrement nos offres</h5>
-          {% include newsletter-helper.html %}
+         
         </div>
         <div class="scroll-blog">
             {% for post in site.posts %}
@@ -22,6 +21,7 @@ redirect_from: [/en/news,/fr/9-uncategorised/101-typography,/fr/videos,/fr/oree,
             {% endfor %}
             </div>
 
-            
           </div>
+          <h5 class="grey-text text-darken-2">Inscrivez-vous à notre liste pour recevoir régulièrement nos offres</h5>
+          {% include newsletter-helper.html %}
         </section>

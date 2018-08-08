@@ -952,22 +952,13 @@ p{
 }
 
 .blog{
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
   
   .hero-blog{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    // background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
-    background-image: url('../img/blog/blog.jpg');
-    background-size: cover;
-    background-position: bottom;
     h2{
-      color: black;
+      color: white;
+      margin: 0px;
+      padding: 40px;
+      background: #333;
     }
     h5{
       font-size: 0.8rem;
@@ -976,13 +967,11 @@ p{
 
   }
   .scroll-blog{
-    overflow-y: auto;
-    width: 50%;
     margin: 0 auto;
-
+    display: flex;
+    flex-wrap: wrap;
     .blog-article{
-    max-width: 600px;
-    display: block;
+    max-width: 400px;
     color: rgba(25,17,34,0.8);
     padding: 60px;
     margin: 20px auto;
