@@ -981,7 +981,9 @@ p{
     -webkit-transition: 250ms cubic-bezier(0.4,0,0.2,1),-webkit-transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
     -webkit-transition: 250ms cubic-bezier(0.4,0,0.2,1),transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
     transition: 250ms cubic-bezier(0.4,0,0.2,1),transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
-   
+   i{
+     color: #333;
+   }
     &:hover{
       background: #c40d1e;
       box-shadow: 0 10px 42px rgba(25,17,34,0.1);
