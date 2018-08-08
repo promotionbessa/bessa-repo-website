@@ -14,6 +14,7 @@ redirect_from: [/en/news,/fr/9-uncategorised/101-typography,/fr/videos,/fr/oree,
             {% for post in site.posts %}
          <div class="blog-article">
               <a href="{{ post.url | relative_url }}">
+              <i class="material-icons right white-text">library_books</i>
               <h4>{{post.title}}</h4>
               <div>{{post.content | truncatewords: 30 }}</div>
               </a>
