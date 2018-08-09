@@ -6,7 +6,7 @@ title: >-
 description: >-
   architecture contemporaine en Algerie , construction moderne, résidence
   contemporaine 
-picture: /img/uploads/01_zaha-hadid_28th_highline_full.jpg
+picture: /img/uploads/1_06.jpg
 comments: true
 ---
 Tour, immeuble arrondi, façade vitrée, bâtiment avec effet lumière…On remarque de plus en plus ce style de construction dans les grandes villes du pays. Il s’agit notamment de l’architecture contemporaine qui est en vogue en ce moment. En effet, certains promoteurs immobiliers en Algérie adoptent petit à petit ce type d’architecture dit moderne. Mais que veut dire l’architecture contemporaine ? Quels sont les matériaux utilisés … ? Pour répondre à ces questions nous avons fait appel à Samir Ait Yahia, architecte de profession. Exerçant depuis 2013 chez Bessa promotion, M. Ait yahia a participé à l’élaboration d’une dizaine de projets.
