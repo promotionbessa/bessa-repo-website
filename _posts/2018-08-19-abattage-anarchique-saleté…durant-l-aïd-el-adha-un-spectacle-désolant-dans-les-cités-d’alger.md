@@ -9,7 +9,7 @@ description: >-
 picture: /img/uploads/black-travel-plain-collage-instagram.png
 comments: true
 ---
-## 
+
 
 L’ambiance de l’Aïd El-Adha est souvent gâchée par la prolifération de déchets de mouton. Une situation récurrente à chaque fête du sacrifice, les cités et quartiers se transforment en abattoirs collectifs ne respectant que rarement les règles sanitaires et d’hygiène, et ce, malgré les campagnes de sensibilisation du ministère de la Santé.
 
