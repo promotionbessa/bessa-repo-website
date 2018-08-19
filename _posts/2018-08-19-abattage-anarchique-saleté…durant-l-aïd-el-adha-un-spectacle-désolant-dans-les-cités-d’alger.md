@@ -1,7 +1,7 @@
 ---
 layout: singlepost
 title: >-
-  Abattage anarchique, saleté…durant l'Aïd El Adha Un spectacle désolant dans
+  Abattage anarchique, saleté…durant l'Aïd El Adha: Un spectacle désolant dans
   les cités d’Alger
 description: >-
   Abattage anarchique, déchets de mouton,Aid el adha, la saleté dans les cité
