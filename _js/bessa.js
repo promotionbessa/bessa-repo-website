@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
   "use strict"
+  $('.modal').modal('open');
+
   function smoothScroll (duration) {
   	$('a[href^="#introduction"]').on('click', function(event) {
 
