@@ -5,7 +5,7 @@ description: >-
   Rentrée scolaire en Algérie, école privée, enfants scolarisés, résidences
   dotées d'écoles, Nouria Benghabrit
 picture: >-
-  /img/uploads/661-2fmagic-article-actu-2f7bc-2f998-2fe5fde2ff04be044f7d5bdd4119-2fles-nouveautes-de-la-rentree-scolaire-2018_7bc998e5fde2ff04be044f7d5bdd4119.jpg
+  /img/uploads/5defa5464ee6d4c7fc7d8413492cf791-sarthe-rentree-scolaire-derniers-ajustements-dans-les-ecoles.jpg
 comments: true
 ---
 C’est la rentrée scolaire et beaucoup de parents vivent le calvaire de parcourir des kilomètres  pour déposer leurs enfants à l’école. En effet, de nos jours un grand nombre d'écoliers est scolarisé dans des établissements privés. La raison qui revient le plus souvent est la qualité de l’enseignement et la prise en charge en demi-pension. Ainsi, les enfants  rejoignent les bancs scolaires tôt le matin et ne regagnent  leurs habitations respectives qu’en fin de journée. Ce qui permet aux  parents de  palier tranquillement à leur activité durant  la journée.
