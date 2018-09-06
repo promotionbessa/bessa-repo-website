@@ -213,3 +213,14 @@ projects:
       - slide: "/img/avancement/sapins2/11.jpg"
         alt: "traitement facade"
         caption: "Traitement de façade et équipements extérieurs"
+  itri:
+    slider:
+      - slide: "/img/avancement/itri/1.jpg"
+        alt: "Terassement"
+        caption: "Décapage des terres et création de plateformes"
+      - slide: "/img/avancement/itri/2.jpg"
+        alt: "fintions interrieures et menuiserie alluminium"
+        caption: "Décapage des terres et création de plateformes"
+      - slide: "/img/avancement/itri/3.jpg"
+        alt: "equipement cuisine"
+        caption: "Décapage des terres et création de plateformes"
