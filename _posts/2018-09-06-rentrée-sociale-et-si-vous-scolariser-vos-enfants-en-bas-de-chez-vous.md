@@ -1,6 +1,6 @@
 ---
 layout: singlepost
-title: 'Rentrée sociale : et si vous scolariser vos enfants en bas de chez vous ?'
+title: 'Rentrée sociale : et si vous scolarisiez vos enfants en bas de chez vous ?'
 description: >-
   Rentrée scolaire en Algérie, école privée, enfants scolarisés, résidences
   dotées d'écoles, Nouria Benghabrit
