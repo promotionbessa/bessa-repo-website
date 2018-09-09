@@ -163,13 +163,6 @@ residences:
         alt: "vue exterieure fusion"
       - slide: "/img/residence/fusion/4.jpg"
         alt: "vue exterieure fusion"
-      - slide: "/img/residence/fusion/5.jpg"
-        alt: "vue exterieure fusion"
-      - slide: "/img/residence/fusion/6.jpg"
-        alt: "vue exterieure fusion"
-      - slide: "/img/residence/fusion/7.jpg"
-        alt: "vue exterieure fusion"
-
   fusion2:
     cover: "/img/residence/fusion2/cover.jpg"
     slider:
