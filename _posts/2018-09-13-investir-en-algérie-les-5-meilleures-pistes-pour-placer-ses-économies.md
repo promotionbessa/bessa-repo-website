@@ -21,11 +21,11 @@ L’emprunt obligataire est une solution d’investissement intéressante. Il s�
 
 ## Acheter des parts en PME
 
-Cette forme d’investissement, au potentiel de gains énormes, est accessible. Elle est réservée à des fonds spécialisés, capables d’investir des sommes importantes d’un seul coup pour prendre possession de 20 à 30% du capital d’une start-up en phase de lancement. Mais le risque est très élevé, nombre de ces PME étant vouées à la faillite. En effet, Benkhelfa estime que plus le  gain est important plus le risque de perte est énorme.
+Cette forme d’investissement, au potentiel de gains énormes, est accessible. Elle est réservée à des fonds spécialisés, capables d’investir des sommes importantes d’un seul coup pour prendre possession de 20 à 30% du capital d’une start-up en phase de lancement. Mais le risque est très élevé, nombre de ces PME étant vouées à la faillite. En effet, Benkhelfa affirme que plus le  gain est important plus le risque de perte est énorme.
 
 ## L’or
 
-L'or étant la valeur refuge, il est toujours bon d'en avoir un peu en portefeuille.  C’est un investissement dont le rendement est rapide.  Surtout que ces dernières années, le prix de l’or a connu d’importantes augmentations dans les bourses internationales, estime le spécialiste.
+L'or étant la valeur refuge, il est toujours bon d'en avoir un peu en portefeuille.  C’est un investissement dont le rendement est rapide.  Surtout que ces dernières années, le prix de l’or a connu d’importantes augmentations dans les bourses internationales, note le spécialiste.
 
 ## L’immobilier
 
