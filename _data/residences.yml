@@ -19,13 +19,13 @@ residences:
   status: new  
   location: Hydra
 - title: Résidence Itri
-  url: /nouveautes/itri.html
+  url: /projets-en-cours/itri.html
   content: Pionniers dans les projets immobiliers de haut standing, l’équipe de Bessa Promotion a le plaisir de vous présenter son tout nouveau projet Itri.
   image: /img/homepage/itri.jpg
   status: new
   location: Ouled fayet
 - title: Résidence Les Massyles
-  url: /nouveautes/les-massyles.html
+  url: /projets-en-cours/les-massyles.html
   content: Découvrez en avant-première notre nouvelle résidence Les Massyles dans le quartier des Grands Vents entre Ouled Fayet et Chéraga, un projet luxueux de deux tours à l’architecture contemporaine.
   image: /img/homepage/massyles.jpg
   status: new
