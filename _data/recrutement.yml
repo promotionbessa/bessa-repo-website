@@ -2,3 +2,15 @@ jobs:
 - jobtitle: Infographe
   short: Bessa Promotion recrute un(e) graphic designer Junior avec une bonne maîtrise.
   link: /recrut/designer.html
+- jobtitle: Agent de reception
+  short: Bessa Promotion recrute un(e) Agent de reception.
+  link: /recrut/agent-reception.html
+- jobtitle: Directeur financier
+  short: Bessa Promotion recrute un(e) Directeur financier.
+  link: /recrut/directeur-finance.html
+- jobtitle: Juriste
+  short: Bessa Promotion recrute un(e) Juriste.
+  link: /recrut/juriste.html
+- jobtitle: Recepsioniste 
+  short: Bessa Promotion recrute un(e) Receptioniste.
+  link: /recrut/recepsioniste.html

@@ -1,0 +1,80 @@
+---
+layout: recrut
+permalink: /recrut/receptioniste.html
+title: Receptioniste
+slug: Receptioniste
+upload: true
+---
+
+<div class="padding grey-text text-darken-1">
+    <h4 class="bessa-color padding">Missions</h4>
+      <ul class="browser-default flow-text">
+          <li>Réception des clients et candidats.</li>
+          <li>Réception des appels téléphoniques (gestion du standard).</li>
+          <li>Vérification et gestion des RDV des clients sur le site de Bessa Promotion.</li>
+          <li>Veiller au confort des Clients et candidats.</li>
+          <li>Assurer toute tàche ou mission confiée par la Direction.</li>
+    
+      </ul>
+    <h4 class="bessa-color padding">Profil recherché</h4>
+    <ul class="browser-default flow-text">
+        <li>Expérience souhaitée.</li>
+        <li>Diplôme universitaire.</li>
+    </ul>
+    <h4 class="bessa-color padding">Avantages du poste</h4>
+      <ul class="browser-default flow-text">
+          <li>Salaire attractif</li>
+          <li>Cadre de travail agréable.</li>
+          <li>Plusieurs avantages sociaux.</li>
+          <li>Évoluer dans une équipe dynamique et aux compétences multiples.</li>
+    
+      </ul>
+    </div>
+    <div class="contact-us center-align col s12 m12 hoverable">
+    <div class="header-show">
+    <h3 class="center-align underline--magical-full">Candidature pour le poste de {{page.title}}</h3>
+    <div class="underline"></div>
+    </div>
+     <div class="row">
+      <form class="col s12 m12" action="https://formspree.io/recrut@bessapromotion.com"
+    method="POST">
+        <div class="row">
+          <div class="input-field col s12 m6">
+            <i class="material-icons prefix">account_circle</i>
+            <label for="first_name">Prenom</label>
+            <input  id="first_name" type="text" class="validate" name="Prenom" required>
+          </div>
+          <div class="input-field col s12 m6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="last_name" type="text" class="validate active" name="Nom" required>
+            <label for="last_name" >Nom</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate" name="Email" required>
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <input type="hidden" name="_subject" value="Nouvelle candidature reçue pour le poste de {{page.title}}" />
+        <input type="hidden" name="_language" value="fr" />
+    
+    
+    
+       <div class="row">
+         <div class="input-field col m12">
+           <div>
+           <input type="hidden" role="uploadcare-uploader" name="my_file" required />
+               </div>
+             </div>
+    
+         </div>
+    
+    
+     <button class="btn waves-effect waves-light m-top" type="submit">Je depose
+     <i class="material-icons right white-text">send</i>
+    </button>
+      </form>
+    </div>
+    </div>
