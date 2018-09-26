@@ -1,6 +1,6 @@
 ---
 layout: singlepost
-title: 'Quitter le centre d’Alger pour vivre en banlieue  La nouvelle tendance '
+title: 'Quitter le centre d’Alger pour vivre en banlieue : la nouvelle tendance '
 description: >-
   Le prix du m2 le moins cher à Alger, éviter la circulation, habiter en front
   de mer, habiter en banlieue d'alge, maison au bord de la merr
