@@ -22,7 +22,7 @@ residences:
   url: /projets-en-cours/itri.html
   content: Pionniers dans les projets immobiliers de haut standing, l’équipe de Bessa Promotion a le plaisir de vous présenter son tout nouveau projet Itri.
   image: /img/homepage/itri.jpg
-  status: new
+  status: encours
   location: Ouled fayet
 - title: Résidence Les Massyles
   url: /projets-en-cours/les-massyles.html
@@ -57,7 +57,7 @@ residences:
   url: /projets-en-cours/massiva.html
   content: Envie de vivre au calme tout en étant proche de tout ? Découvrez la résidence Massiva à Birkhadem, un projet implanté sur un site exceptionnel à quelques dizaines de minutes du centre d’Alger.
   image: /img/homepage/massiva.jpg
-  status: new
+  status: encours
   location: Djenane Sfari
 - title: Résidence Massiva 2
   url: /nouveautes/massiva-2.html
