@@ -4,3 +4,5 @@ Gemfile.lock
 _site
 *.gem
 node_modules
+img/.DS_Store
+.DS_Store
