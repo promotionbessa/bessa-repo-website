@@ -40,6 +40,8 @@ sublinksreferences:
   url: /references/sapins-01.html
 - title: Les Sapins 2
   url: /references/sapin-ii.html
+- title: Fusion
+  url: /references/fusion.html  
 sublinksnouveautes:
 - title: La Pinède
   url: /nouveautes/pinede.html  
@@ -56,8 +58,6 @@ sublinksprojetsencours:
   url: /projets-en-cours/garden.html
 - title: La Belle Colline
   url: /projets-en-cours/la-belle-colline.html
-- title: Fusion
-  url: /projets-en-cours/fusion.html
 - title: Midelt 1
   url: /projets-en-cours/midelt.html
 - title: Midelt 2

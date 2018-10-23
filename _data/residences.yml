@@ -32,7 +32,7 @@ residences:
   location: Grand vent
 
 - title: Résidence Fusion
-  url: /projets-en-cours/fusion.html
+  url: /references/fusion.html 
   content: Située dans un quartier paisible et retiré de Draria, la résidence Fusion a été conçue autour d’un patio, offrant à la fois une luminosité exceptionnelle et un sentiment de convivialité.
   image: /img/homepage/fusion.jpg
   status: encours

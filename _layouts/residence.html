@@ -9,10 +9,12 @@ layout: default
   </div>
 
     {{ content }}
+    {% if page.delivery  %}
     <div class="delivery-date">
       <h5>Livraison prévue  <span class="bessa-color">{{page.delivery}}</span></h5>
 
     </div>
+    {% endif %}
 
     {% if page.booking == true %}
           <div class="newsletter-container">
