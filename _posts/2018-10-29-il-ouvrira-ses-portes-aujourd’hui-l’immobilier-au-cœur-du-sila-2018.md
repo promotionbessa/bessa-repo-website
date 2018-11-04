@@ -4,7 +4,7 @@ title: 'Il ouvrira ses portes aujourd’hui : l’immobilier au cœur du SILA 20
 description: >-
   les livres vendus au sila, les écrivains présents au salon du livre 2018, la
   fermeture du sila, les promotions au sila 2018
-picture: /img/uploads/sila-1-.jpg
+picture: /img/uploads/sila-2-.jpg
 comments: true
 ---
 Le salon international du livre d’Alger (SILA) est l’évènement culturel le plus attendu de l’année. Que vous soyez amoureux de la lecture ou assoiffé  de connaissance, ce rendez-vous  est l’occasion idéale pour renouer avec l’univers du livre.  Ecrivains et éditeurs auront treize jours pour rencontrer le public algérien et présenter  leurs nouveaux ouvrages. 
