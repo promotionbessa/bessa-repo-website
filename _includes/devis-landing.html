@@ -37,14 +37,14 @@
             </div>
             <div class="input-field col s12">
               <select name="devis-pour-{{page.slug}}" required>
-                <option value="" disabled selected>Selectionnez le type d'appartement souhaité</option>
+                <option value="" disabled selected>Sélectionnez le type d'appartement souhaité</option>
                 {%for residence in site.data.offres[page.offre] %}
                 <option value={{residence.type}}>{{residence.type}}</option>
 
                 {% endfor %}
 
               </select>
-              <label>Type de d'appartement souhaité</label>
+              <label>Type d'appartement</label>
             </div>
 
             
