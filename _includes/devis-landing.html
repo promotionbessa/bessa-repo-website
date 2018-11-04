@@ -1,13 +1,13 @@
 <div class="contact-us center-align col s12 m12">
         <div class="header-show">
-        <h3 class="center-align"><span class="underline--magical-full">Contactez nous pour plus d'information</span></h3>
+        <h4 class="center-align"><span class="underline--magical-full">Contactez nous pour plus d'information</span></h4>
         <div class="underline"></div>
         </div>
          <div class="row">
            <div class="col s12 m12">
 
           <form name="contact-devis-{{page.slug}}" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" class="contact-general"  >
-            <input name="bot-field" style="opacity:0">
+            <input name="bot-field" style="opacity:0" class="bot-filed">
 
             <div class="row">
               <div class="input-field col s12 m6">
@@ -37,43 +37,30 @@
             </div>
             <div class="input-field col s12">
               <select name="devis-pour-{{page.slug}}" required>
-                <option value="" disabled selected>Type de demande</option>
+                <option value="" disabled selected>Selectionnez le type d'appartement souhaité</option>
                 {%for residence in site.data.offres[page.offre] %}
                 <option value={{residence.type}}>{{residence.type}}</option>
 
                 {% endfor %}
 
               </select>
-              <label>Type de demande</label>
+              <label>Type de d'appartement souhaité</label>
             </div>
 
-
+            
+                <div class="input-field col m12">
+                  <i class="material-icons prefix">textsms</i>
+                  <textarea id="textarea1"  class="materialize-textarea" name="Message" required maxlength="300"></textarea>
+                  <label for="textarea1">Message</label>
+                  <button class="btn waves-effect waves-light" type="submit">Envoyer
+                     <i class="material-icons right white-text">send</i>
+                  </button>
+                </div>
+             
             <input type="hidden" name="_subject" value="Nouveau contact recu" />
             <input type="hidden" name="_language" value="fr" />
             <input type="hidden" name="_next" value="/thanks.html" />
-
-            <div class="row">
-         <div class="col m12">
-           <div class="row">
-             <div class="input-field col m12">
-               <i class="material-icons prefix">textsms</i>
-               <textarea id="textarea1"  class="materialize-textarea" name="Message" required maxlength="300"></textarea>
-               <label for="textarea1">Message</label>
-               <button class="btn waves-effect waves-light" type="submit">Envoyer
-            <i class="material-icons right white-text">send</i>
-          </button>
-             </div>
-           </div>
-         </div>
-       </div>
           </form>
           </div>
-        </div>
-        <div class="social-contact">
-          <a href="https://www.linkedin.com/company/bessapromotion"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://www.youtube.com/channel/UCZVKa9mTpLu7TSvEE0W4X8g"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
-          <a href="https://www.facebook.com/PromotionBessa/"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
-          <a href="https://twitter.com/bessapromotion"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
-
         </div>
       </div>
