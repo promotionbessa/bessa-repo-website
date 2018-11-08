@@ -9,7 +9,7 @@ description: >-
 picture: /img/uploads/img_0045-2-.jpg
 comments: true
 ---
-Fini les gigante bibliothèques qui occupaient autrefois l’espace de la salle de séjour. Désormais c’est le style minimaliste qui domine le design de la majorité des habitations. Intérieur épuré, sobriété des couleurs ainsi que des meubles simples sont les mots d’ordre de  cette nouvelle décoration. Très en vogue,  le minimaliste fait rêver les ménages algériens qui veulent aménager leur petit chez soi en un nid douillet. 
+Fini les gigantes bibliothèques qui occupaient autrefois l’espace de la salle de séjour. Désormais c’est le style minimaliste qui domine le design de la majorité des habitations. Intérieur épuré, sobriété des couleurs ainsi que des meubles simples sont les mots d’ordre de  cette nouvelle décoration. Très en vogue,  le minimaliste fait rêver les ménages algériens qui veulent aménager leur petit chez soi en un nid douillet. 
 
 ## Qu’est-ce que le style minimaliste ?
 
