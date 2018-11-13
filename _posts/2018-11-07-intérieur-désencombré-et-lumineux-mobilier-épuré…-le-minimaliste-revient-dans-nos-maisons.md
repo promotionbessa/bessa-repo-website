@@ -1,7 +1,7 @@
 ---
 layout: singlepost
 title: >-
-  Intérieur désencombré et lumineux, mobilier épuré… Le minimaliste revient dans
+  Intérieur désencombré et lumineux, mobilier épuré… Le minimalisme revient dans
   nos maisons
 description: >-
   décoration intérieur Algérie, meuble sobre, salle à manger, chambre à coucher,
