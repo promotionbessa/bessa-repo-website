@@ -1,7 +1,7 @@
 ---
 layout: singlepost
 title: >-
-  Il sera célébré le 20 novembre courant : Le mawlid ennabaoui dans la pure
+  Il sera célébré le 20 novembre courant : le Mawlid Ennabaoui dans la pure
   tradition algérienne
 description: >-
   ambiance et tradition algerienne du mawlid ennabaoui, bougie et décoration
@@ -14,11 +14,9 @@ Un repas très spécial... des bougies partout... bkhour et ambar embaument nos 
 
 ## Ambiance festive
 
-## 
 
 Bien que nous prions sur le prophète tous les jours, le jour du Mawlid est une occasion spéciale pour nous d’exprimer notre affection et notre amour profond au plus noble des envoyés. C’est aussi une occasion en or d’intéresser les enfants à cet événement et de les convier à cette fête qui fait le bonheur des petits et des grands. Les rues se sont mises aux couleurs de la fête bien ancrée dans la culture de l’Algérien, quelle que soit sa région géographique. Célébrer le Mawlid est même perçu comme une obligation morale et bien plus et qu’un  rituel que l’on doit s’acquitter ou accomplir. A chacun sa  méthode. A chacun ses moyens pour honorer cette tradition séculaire, jalousement gardée et  transmise de père en fils.
 
-## 
 
 ## Focus sur les principes de l'Islam
 
