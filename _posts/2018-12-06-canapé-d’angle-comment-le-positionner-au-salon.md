@@ -4,7 +4,7 @@ title: 'Canapé d’angle : comment le positionner au salon ?'
 description: >-
   Décoration maison, type de canapé L, meubler le salon, placer le canapé
   d'angle, ameublement tendance, 
-picture: /img/uploads/nordik-canape-angle-cuir-gris-fonce-blanc-gauche-1-.jpg
+picture: /img/uploads/nordik-canape-angle-cuir-gris-fonce-blanc-gauche.jpg
 comments: true
 ---
 Le canapé  d’angle est devenu actuellement le meuble phare des décorations intérieur. Que ce soit pour gagner de l’espace ou pour donner du style à la salle de séjour, ce type de meuble fait le bonheur des ménages. Surtout que les fabricants des canapés L ne finissent pas d’innover dans leurs conceptions.  Canapé  d’angle compact, canapé d’angle  en cuir, canapé d’angle convertible ... il y’en a pour tous les goûts. Mais la question qui revient assez souvent est comment placer ce canapé ?  
