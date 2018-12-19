@@ -13,6 +13,7 @@ Prévus demain, les vacances scolaires de la saison d’hiver sont tant attendus
 
 ## Des activités chez soi
 
+![](/img/uploads/il-adore-le-coloriage-tant-mieux-ca-lui-fait-du-bien.jpeg)
 
 Il est toujours difficile de concilier vacances, budget serré et activités. Surtout avec plusieurs enfants à charge. Si cette année vous ne pouvez pas partir en vacances d’hiver, il existe cependant de nombreuses activités possibles pour passer de bons moments avec ses enfants. L’on cite comme exemple un après-midi loisirs créatifs : Quoi de mieux pour passer du temps avec ses enfants tout en s’amusant qu’une bonne après-midi collage, découpage, coloriage… Ou tout simplement faire participer ses enfants à la préparation d’un gâteau et le manger au goûter. Les vacances sont également une occasion de faire des activités instructives comme donner le goût de la lecture à ses enfants. La lecture pour le plaisir est un passe-temps incroyable qui aide votre progéniture à plonger dans un monde d'expériences.
 
